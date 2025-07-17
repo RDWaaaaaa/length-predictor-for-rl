@@ -63,6 +63,12 @@ python regression_inference.py
 ```sh
 python result_analyzer.py alpaca_gpt4_data_processed_inference_results.json
 ```
+
+3. 集成
+可以直接处理原始数据集、生成过滤前后的数据集，分别推理、分析输出。
+```
+inference_and_analyze.sh
+```
 ### 示例
 模型用在Qwen/Qwen2.5-3B-Instruct用alpaca_gpt4_data数据集微调并测试，结果在examples/alpaca_gpt4_data，又用dolly数据集测试，结果在examples/dolly。
 ## 问题

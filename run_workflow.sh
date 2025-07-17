@@ -10,9 +10,8 @@
 set -e
 
 
-const PYTHON_SCRIPTS=(
+PYTHON_SCRIPTS=(
   "regression-lora-standardscaler.py"
-  "regression-lora.py"
 )
 
 # 获取脚本总数

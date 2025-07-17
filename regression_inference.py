@@ -7,9 +7,9 @@ from peft import PeftModel
 from tqdm import tqdm
 import os
 import numpy as np
+import argparse
 
 # ================== 配置项 ==================
-INPUT_FILENAME = "examples/alpaca_gpt4_data/alpaca_gpt4_data_processed_filtered.json"
 MODEL_PATH = "./regression-lora-standardscaler/best_model"
 BASE_MODEL_NAME = "Qwen/Qwen2.5-3B-Instruct"
 BATCH_SIZE = 16
@@ -44,6 +44,12 @@ class InferenceDataset(Dataset):
         }
 
 def main():
+    # --- 新增：设置命令行参数解析 ---
+    parser = argparse.ArgumentParser(description="使用训练好的模型对JSON文件进行推理。")
+    parser.add_argument("input_filename", type=str, help="需要进行推理的输入JSON文件的路径。")
+    args = parser.parse_args()
+    input_filename = args.input_filename # 从命令行获取输入文件名
+
     # --- 路径和设备检查 ---
     if not os.path.exists(MODEL_PATH):
         print(f"错误：模型路径 '{MODEL_PATH}' 不存在。")
@@ -54,8 +60,8 @@ def main():
         print(f"错误：在 '{MODEL_PATH}' 中未找到 'label_scaler.pkl'。")
         return
         
-    if not os.path.exists(INPUT_FILENAME):
-        print(f"错误：输入数据文件 '{INPUT_FILENAME}' 不存在。")
+    if not os.path.exists(input_filename):
+        print(f"错误：输入数据文件 '{input_filename}' 不存在。")
         return
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -86,13 +92,12 @@ def main():
     print("模型、分词器和Scaler加载成功！")
 
     # --- 准备数据 ---
-    print(f"正在加载推理数据: {INPUT_FILENAME}")
-    with open(INPUT_FILENAME, 'r', encoding='utf-8') as f:
+    print(f"正在加载推理数据: {input_filename}")
+    with open(input_filename, 'r', encoding='utf-8') as f:
         inference_data = json.load(f)
     
     inference_dataset = InferenceDataset(inference_data, tokenizer, max_length=MAX_LENGTH)
     
-    # 使用更底层的 DataLoader 和手动循环，避免不必要的 Trainer 开销
     inference_loader = DataLoader(
         inference_dataset,
         batch_size=BATCH_SIZE,
@@ -108,11 +113,9 @@ def main():
             
             outputs = model(input_ids=input_ids, attention_mask=attention_mask)
             
-            # 将logits移动回CPU并转换为numpy数组
             logits = outputs.logits.detach().cpu().to(torch.float32).numpy()
             all_predictions.append(logits)
 
-    # 将所有批次的预测结果合并成一个大的numpy数组
     scaled_predictions = np.vstack(all_predictions)
 
     print("正在将预测结果转换回原始数值...")
@@ -124,7 +127,7 @@ def main():
         new_item['predicted_output'] = float(original_scale_predictions[i][0])
         results_with_predictions.append(new_item)
 
-    base, ext = os.path.splitext(INPUT_FILENAME)
+    base, ext = os.path.splitext(input_filename)
     output_filename = f"{base}_inference_results{ext}"
     
     print(f"\n推理完成！正在将结果保存到: {output_filename}")

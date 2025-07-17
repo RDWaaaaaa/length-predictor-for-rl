@@ -59,9 +59,13 @@ plt.ylabel('Output Size')
 plt.tight_layout()
 
 # --- 5. 保存图像到文件 ---
-base_name = os.path.splitext(os.path.basename(input_filename))[0]
-output_image_filename = f"{base_name}_distribution.png"
 
-# dpi=300 设置高分辨率, bbox_inches='tight' 裁剪空白
-plt.savefig(output_image_filename, dpi=300, bbox_inches='tight')
-print(f"图像已保存为 '{output_image_filename}'")
+base_path_without_ext = os.path.splitext(input_filename)[0]
+output_image_filename = f"{base_path_without_ext}_distribution.png"
+
+try:
+    plt.savefig(output_image_filename, dpi=300, bbox_inches='tight')
+    print(f"图像已保存为 '{output_image_filename}'")
+except Exception as e:
+    print(f"错误：保存图像失败。原因: {e}")
+

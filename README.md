@@ -32,20 +32,20 @@ tmux new -s my_training # 启动一个tmux会话
 tmux ls # 列出所有正在运行的tmux会话
 tmux attach -t my_training # 附加到会话，可以看到脚本运行的输出
 ```
+
 单独运行时，nohup可避免关闭终端导致训练中断。  
 
-两种方式：
 1. 分类classification.py
 ```sh
 nohup accelerate launch classification.py > classification.log 2>&1 &
 ```
-以50 tokens为粒度，LoRA，正确率56%
+以 50 tokens 为粒度，LoRA，正确率56%
 
-2. 回归
+2. 回归regression.py
 ```sh
-nohup accelerate launch classification.py > classification.log 2>&1 &
+nohup accelerate launch regression.py > regression.log 2>&1 &
 ```
-regression.py，LoRA，长度Z-Score标准化
+直接预测长度，LoRA，长度用Z-Score标准化
 mse: 2914.61：原始尺度上的均方误差
 mae: 34.9187: 原始尺度上的平均绝对误差
 

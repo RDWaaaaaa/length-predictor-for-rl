@@ -45,9 +45,9 @@ nohup accelerate launch classification.py > classification.log 2>&1 &
 ```sh
 nohup accelerate launch regression.py > regression.log 2>&1 &
 ```
-直接预测长度，LoRA，长度用Z-Score标准化
-mse: 2914.61：原始尺度上的均方误差
-mae: 34.9187: 原始尺度上的平均绝对误差
+直接预测长度，LoRA，长度用Z-Score标准化  
+mse: 2914.61：原始尺度上的均方误差  
+mae: 34.9187: 原始尺度上的平均绝对误差  
 
 
 ### 推理
@@ -66,7 +66,7 @@ python result_analyzer.py alpaca_gpt4_data_processed_inference_results.json
 
 3. 集成
 可以直接处理原始数据集、生成过滤前后的数据集，分别推理、分析输出。
-```
+```sh
 inference_and_analyze.sh
 ```
 ### 示例
@@ -80,7 +80,9 @@ dolly的完整测试结果在examples/dolly。
 4. inference_results_residuals_plot残差图
 其中2、3、4分别有完整数据集的版本，和只显示长数据（真实token>500）的版本。
 
-## 问题
-目前微调和测试用到的数据集均为英文，且数据量不大。  
-真实token>500的数据，它们对应的预测整体偏小。  
-TODO：LLaMA-Factory
+对比可以看到，真实token>500的数据，它们对应的预测值整体偏小。  
+
+## TODO
+1. 加入中文数据集。
+2. 筛选长度较大的样本。
+3. LLaMA-Factory。

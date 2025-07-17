@@ -24,7 +24,14 @@ python filter.py <input_json_file>
 ```
 
 ### 微调
-参考`run_workflow.sh`文件，后台进行训练，不受服务器断连影响。  
+后台进行训练，不受服务器断连影响。  
+```sh
+tmux new -s my_training # 启动一个tmux会话
+./run_workflow.sh # 在会话中运行
+# 此时即使服务器断连也能正常运行
+tmux ls # 列出所有正在运行的tmux会话
+tmux attach -t my_training # 附加到会话，可以看到脚本运行的输出
+```
 单独运行时，nohup可避免关闭终端导致训练中断。  
 
 两种方式：

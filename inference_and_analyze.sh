@@ -4,7 +4,9 @@
 set -e
 
 # 定义要处理的数据集名称
+# 在此数组中添加更多数据集名称，脚本会自动依次处理
 DATASETS=(
+  "alpaca_gpt4_data"
   "dolly"
 )
 
@@ -20,16 +22,21 @@ for dataset_name in "${DATASETS[@]}"; do
   echo "=================================================="
   echo ""
 
-  # --- 步骤 1: 数据预处理 ---
-  echo "[步骤 1/4] 正在进行数据预处理..."
+  # --- 步骤 1: 数据预处理与分析 ---
+  echo "[步骤 1/5] 正在进行数据预处理..."
   input_file="examples/${dataset_name}/${dataset_name}.json"
   processed_file="examples/${dataset_name}/${dataset_name}_processed.json"
   python processor.py "${input_file}"
   echo "数据预处理完成，输出文件: ${processed_file}"
+  
+  # 分析预处理后的输出文件
+  echo "[步骤 2/5] 正在分析预处理输出..."
+  python output_analyzer.py "${processed_file}"
+  echo "预处理输出分析完成。"
   echo ""
 
   # --- 步骤 2: 初始推理与分析 ---
-  echo "[步骤 2/4] 正在对预处理后的数据进行推理与分析..."
+  echo "[步骤 3/5] 正在对预处理后的数据进行推理与分析..."
   inference_results_file="${processed_file}_inference_results.json"
   
   python regression_inference.py "${processed_file}"
@@ -41,14 +48,14 @@ for dataset_name in "${DATASETS[@]}"; do
   echo ""
 
   # --- 步骤 3: 数据过滤 ---
-  echo "[步骤 3/4] 正在过滤数据..."
+  echo "[步骤 4/5] 正在过滤数据..."
   filtered_file="examples/${dataset_name}/${dataset_name}_processed_filtered.json"
   python filter.py "${processed_file}"
   echo "数据过滤完成，输出文件: ${filtered_file}"
   echo ""
 
   # --- 步骤 4: 对过滤后的数据进行推理与分析 ---
-  echo "[步骤 4/4] 正在对过滤后的数据进行推理与分析..."
+  echo "[步骤 5/5] 正在对过滤后的数据进行推理与分析..."
   filtered_inference_results_file="${filtered_file}_inference_results.json"
   
   python regression_inference.py "${filtered_file}"

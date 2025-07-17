@@ -70,8 +70,17 @@ python result_analyzer.py alpaca_gpt4_data_processed_inference_results.json
 inference_and_analyze.sh
 ```
 ### 示例
-模型用在Qwen/Qwen2.5-3B-Instruct用alpaca_gpt4_data数据集微调并测试，结果在examples/alpaca_gpt4_data，又用dolly数据集测试，结果在examples/dolly。
+模型在Qwen/Qwen2.5-3B-Instruct用alpaca_gpt4_data数据集微调。  
+alpaca_gpt4_data的完整测试结果在examples/alpaca_gpt4_data。  
+dolly的完整测试结果在examples/dolly。  
+测试结果的图像包括：  
+1. distribution输入数据集的分布。
+2. inference_results_distribution推理结果与真实结果差的分布
+3. inference_results_scatter_plot散点图
+4. inference_results_residuals_plot残差图
+其中2、3、4分别有完整数据集的版本，和只显示长数据（真实token>500）的版本。
+
 ## 问题
 目前微调和测试用到的数据集均为英文，且数据量不大。  
-真实值在500+的预测整体偏小。  
+真实token>500的数据，它们对应的预测整体偏小。  
 TODO：LLaMA-Factory

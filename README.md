@@ -51,12 +51,21 @@ mae: 34.9187: 原始尺度上的平均绝对误差
 
 
 ### 推理
+1. 推理
 ```sh
-python regression_inference.py <input_json_file>
+python regression_inference.py
 ```
+要修改代码，在其中设置模型路径以及数据集
 输入文件名为`xxx.json`，输出文件名为`xxx_inference_results.json`，每条数据只比输入文件多一项predicted_output。  
-暂不支持accelerate launch。
+暂不支持accelerate launch。  
 
-
+2. 数据分析
+```sh
+python result_analyzer.py alpaca_gpt4_data_processed_inference_results.json
+```
+### 示例
+模型用在Qwen/Qwen2.5-3B-Instruct用alpaca_gpt4_data数据集微调并测试，结果在examples/alpaca_gpt4_data，又用dolly数据集测试，结果在examples/dolly。
 ## 问题
-目前微调和测试用到的数据集均为英文，且数据量不大。
+目前微调和测试用到的数据集均为英文，且数据量不大。  
+真实值在500+的预测整体偏小。  
+TODO：LLaMA-Factory

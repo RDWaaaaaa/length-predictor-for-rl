@@ -1,0 +1,3452 @@
+[
+  {
+    "prompt": "Create a web page about robotics.",
+    "rl_step": 0,
+    "output": 570
+  },
+  {
+    "prompt": "Given a binary tree, check if it is a binary search tree?",
+    "rl_step": 0,
+    "output": 569
+  },
+  {
+    "prompt": "Train a logistic regression model with credit data.",
+    "rl_step": 0,
+    "output": 526
+  },
+  {
+    "prompt": "Write a blog post on how to deploy machine learning models.",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Outline the events of the following movie: The Great Gatsby.",
+    "rl_step": 0,
+    "output": 520
+  },
+  {
+    "prompt": "Create an example of a web page.",
+    "rl_step": 0,
+    "output": 643
+  },
+  {
+    "prompt": "Write a story about a doctor and his patient",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Outline the key differences between the Linux and Windows operating systems.",
+    "rl_step": 0,
+    "output": 528
+  },
+  {
+    "prompt": "Identify and define the parts of a cell.",
+    "rl_step": 0,
+    "output": 529
+  },
+  {
+    "prompt": "Develop a web page for a business to increase customer engagement. Coffee Co.",
+    "rl_step": 0,
+    "output": 1018
+  },
+  {
+    "prompt": "Formulate a marketing plan for a new mobile app.",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Describe the different stages in the software development lifecycle.",
+    "rl_step": 0,
+    "output": 502
+  },
+  {
+    "prompt": "Compose a song in C Major.",
+    "rl_step": 0,
+    "output": 881
+  },
+  {
+    "prompt": "Create a web page that sells women's clothing.",
+    "rl_step": 0,
+    "output": 1138
+  },
+  {
+    "prompt": "Outline the steps to make an apple pie.",
+    "rl_step": 0,
+    "output": 502
+  },
+  {
+    "prompt": "Create a 'How to' guide on baking a cake.",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "Explain in detail the process of mitosis.",
+    "rl_step": 0,
+    "output": 532
+  },
+  {
+    "prompt": "Write a sample essay of 500 words on the topic of artificial intelligence.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Construct a truth table for the given expression. (~P -> Q) v (R -> S)",
+    "rl_step": 0,
+    "output": 909
+  },
+  {
+    "prompt": "Write an algorithm to implement a binary search tree.",
+    "rl_step": 0,
+    "output": 944
+  },
+  {
+    "prompt": "Write a blog post about the advantage of coffee.",
+    "rl_step": 0,
+    "output": 537
+  },
+  {
+    "prompt": "Describe the anatomy of a human.",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "Construct a timeline of the history of the United States.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Write a story about a talking dog.",
+    "rl_step": 0,
+    "output": 518
+  },
+  {
+    "prompt": "Describe the process for getting a loan for a home purchase.",
+    "rl_step": 0,
+    "output": 519
+  },
+  {
+    "prompt": "Suggest a framework for developing a predictive analytics model.",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Write a 500-word article on the topic of \"Effective Communication Skills\".",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Write a 500-word story about a young orphan who discovers a hidden magical power.",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Describe the syntax of the given programming language. Python",
+    "rl_step": 0,
+    "output": 547
+  },
+  {
+    "prompt": "Create a script to find the longest palindrome in a given string",
+    "rl_step": 0,
+    "output": 597
+  },
+  {
+    "prompt": "Design a quiz that tests knowledge of the given topic. The Periodic Table",
+    "rl_step": 0,
+    "output": 534
+  },
+  {
+    "prompt": "List the steps for baking a cake. \"<noinput>\"",
+    "rl_step": 0,
+    "output": 521
+  },
+  {
+    "prompt": "Construct a timeline of the events leading up to the American Revolution. \"<noinput>\"",
+    "rl_step": 0,
+    "output": 516
+  },
+  {
+    "prompt": "Write a function to find the longest common substring of two strings.",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Write an opinion article on artificial intelligence in 500-700 words.",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Write a horror story.",
+    "rl_step": 0,
+    "output": 502
+  },
+  {
+    "prompt": "Describe the origins and history of the Internet",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "Generate an example of a realistic dataset for a classification problem.",
+    "rl_step": 0,
+    "output": 666
+  },
+  {
+    "prompt": "Create a resume for a job in web development.",
+    "rl_step": 0,
+    "output": 539
+  },
+  {
+    "prompt": "Describe the process for getting a driver's license in Canada.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Write an article for a magazine about how the average person can reduce their environmental impact.",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "Write a blog post about the importance of protecting the ocean’s coral reefs.",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Prepare a marketing plan for a children's household products. Squirrel products",
+    "rl_step": 0,
+    "output": 542
+  },
+  {
+    "prompt": "Explain the series of events leading up to the fall of the Roman Empire.",
+    "rl_step": 0,
+    "output": 503
+  },
+  {
+    "prompt": "Create a computer program that can search its environment for a red ball.",
+    "rl_step": 0,
+    "output": 640
+  },
+  {
+    "prompt": "Write an essay analyzing the societal effects of technology.",
+    "rl_step": 0,
+    "output": 519
+  },
+  {
+    "prompt": "Explain how Newton's Laws of Motion can be used to explain the motion of a rocket.",
+    "rl_step": 0,
+    "output": 524
+  },
+  {
+    "prompt": "Add two new recipes to the following Chinese dish Beef and broccoli stir fry",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Create an example of a data set that might be used in an AI assistant.",
+    "rl_step": 0,
+    "output": 812
+  },
+  {
+    "prompt": "Create a detailed timeline for the events of World War II.",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Compose a story about a knight.",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Explain the difference between SQL and NoSQL databases.",
+    "rl_step": 0,
+    "output": 543
+  },
+  {
+    "prompt": "Outline the steps to solving a system of linear equations",
+    "rl_step": 0,
+    "output": 550
+  },
+  {
+    "prompt": "Generate a memorable story that the audience can relate to.",
+    "rl_step": 0,
+    "output": 514
+  },
+  {
+    "prompt": "Write a persuasive essay about why everyone should eat a plant-based diet.",
+    "rl_step": 0,
+    "output": 521
+  },
+  {
+    "prompt": "Write pseudocode for a Merge Sort algorithm.",
+    "rl_step": 0,
+    "output": 721
+  },
+  {
+    "prompt": "Create a web page interface for a photo editing application.",
+    "rl_step": 0,
+    "output": 604
+  },
+  {
+    "prompt": "Explain the types of databases.",
+    "rl_step": 0,
+    "output": 531
+  },
+  {
+    "prompt": "Generate a holiday-themed poem.",
+    "rl_step": 0,
+    "output": 559
+  },
+  {
+    "prompt": "Build a calculator using HTML and JavaScript. Noinput",
+    "rl_step": 0,
+    "output": 598
+  },
+  {
+    "prompt": "Generate a specific example of a data structure that can be used in a web application.",
+    "rl_step": 0,
+    "output": 539
+  },
+  {
+    "prompt": "Build a genetic algorithm to predict stock market movements. NoInput",
+    "rl_step": 0,
+    "output": 503
+  },
+  {
+    "prompt": "Create an algorithm that finds the sum of the two largest numbers in an array. [2, 4, 9, 1, 10]",
+    "rl_step": 0,
+    "output": 527
+  },
+  {
+    "prompt": "Construct an algorithm to generate the Fibonacci sequence.",
+    "rl_step": 0,
+    "output": 649
+  },
+  {
+    "prompt": "Create an original story about an elephant",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Generate a 300-400 words essay regarding the following topic: The impact of the internet on communication",
+    "rl_step": 0,
+    "output": 519
+  },
+  {
+    "prompt": "Create a classifcation model to determine whether a given mammal is a carnivore or an herbivore. Fennec Fox",
+    "rl_step": 0,
+    "output": 577
+  },
+  {
+    "prompt": "Write a cross-stitch pattern that says \"the future is bright\".",
+    "rl_step": 0,
+    "output": 529
+  },
+  {
+    "prompt": "Write a script of a sales call.",
+    "rl_step": 0,
+    "output": 550
+  },
+  {
+    "prompt": "Design a PowerPoint presentation about the effects of climate change.",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Topic to write about: How to make a killer presentation",
+    "rl_step": 0,
+    "output": 504
+  },
+  {
+    "prompt": "Explain the principal activities within a sales cycle.",
+    "rl_step": 0,
+    "output": 502
+  },
+  {
+    "prompt": "Create an HTML code to generate a table with 5 columns and 7 rows.",
+    "rl_step": 0,
+    "output": 553
+  },
+  {
+    "prompt": "Generate a 10 annotated bibliography given the information below. The impacts of Climate Change on Human Health",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Format the following article according to APA style guidelines. This article is about the remarkable benefits of nature. When we spend time in nature, our level of stress and anxiety decreases, and our sense of well-being and creativity increases.",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Create an AI application that can play tic-tac-toe.",
+    "rl_step": 0,
+    "output": 777
+  },
+  {
+    "prompt": "Generate a website design for a company that sells house cleaning services",
+    "rl_step": 0,
+    "output": 579
+  },
+  {
+    "prompt": "Write a blog post about improving mental health.",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "Generate an argumentative essay about the importance of healthy eating.",
+    "rl_step": 0,
+    "output": 519
+  },
+  {
+    "prompt": "Generate instructions to create a basic web page",
+    "rl_step": 0,
+    "output": 528
+  },
+  {
+    "prompt": "Given a set of instructions, construct a flow chart to visualize the process. 1. Load the dataset.\n2. Split the dataset into training and validation set.\n3. Pre-process the data.\n4. Feed the data into a deep learning model.\n5. Train the model on the training set.\n6. Tune the hyperparameters with the validation set.",
+    "rl_step": 0,
+    "output": 856
+  },
+  {
+    "prompt": "Create a two-player game involving a combination of strategy and luck.",
+    "rl_step": 0,
+    "output": 541
+  },
+  {
+    "prompt": "Given a writing prompt, write a creative story. A cursed egg that comes to life at night",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Suggest a solution for this leetcode problem Given a string containing only three types of characters: '(', ')' and '*', write a function to check whether this string is valid. We define the validity of a string by these rules:\n\nAny left parenthesis '(' must have a corresponding right parenthesis ')'.\nAny right parenthesis ')' must have a corresponding left parenthesis '('.\nLeft parenthesis '(' must go before the corresponding right parenthesis ')'.\n'*' could be treated as a single right parenthesis ')' or a single left parenthesis '(' or an empty string.\n\nAn empty string is also valid.",
+    "rl_step": 0,
+    "output": 672
+  },
+  {
+    "prompt": "Add a feature in the given code so that it can accept wildcards and special characters. # Python 3 program to validate \n# IPv4 address \n\n# Function to validate a given IPv4 address. \ndef validate_IPv4(s): \n    l = s.split(\".\") \n    if len(l) != 4: \n        return False\n    for x in l: \n        if not x.isdigit() or int(x)>255: \n            return False\n    return True\n\n# Driver Code \ns = \"192.168.1.2\"\nif validate_IPv4(s): \n    print(\"valid\") \nelse: \n    print(\"Invalid\")",
+    "rl_step": 0,
+    "output": 540
+  },
+  {
+    "prompt": "Provide a set of criteria for evaluating machine learning models.",
+    "rl_step": 0,
+    "output": 527
+  },
+  {
+    "prompt": "Compare the benefits and limits of hosting a website on a public server versus on a private server.",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Given a set of numbers, find the largest subset whose sum is less than or equal to a given sum. Set: {3,12,2,7,8,4} \nTarget sum: 15",
+    "rl_step": 0,
+    "output": 504
+  },
+  {
+    "prompt": "Write a blog about the benefits of mindfulness meditation",
+    "rl_step": 0,
+    "output": 506
+  },
+  {
+    "prompt": "Create a programming instruction for an array.",
+    "rl_step": 0,
+    "output": 571
+  },
+  {
+    "prompt": "Compose a blog post on the topic of \"Why companies need to invest in employee training\".",
+    "rl_step": 0,
+    "output": 506
+  },
+  {
+    "prompt": "Compose a 500-word essay on the themes of loneliness revealed in Ernest Hemingway's novel \"The Old Man and the Sea\".",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Write a 3-page article discussing the impact of COVID-19 on the global economy",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Construct a table including the following categories. - Year\n- Temperature\n- Arctic Ice cover",
+    "rl_step": 0,
+    "output": 1083
+  },
+  {
+    "prompt": "Provide a valid example of using inheritance in the Java language",
+    "rl_step": 0,
+    "output": 729
+  },
+  {
+    "prompt": "Generate a legal document that establishes a business contract between two companies Company A and Company B are entering into a contract to provide services.",
+    "rl_step": 0,
+    "output": 536
+  },
+  {
+    "prompt": "Design a website page to inform people about a charity organization.",
+    "rl_step": 0,
+    "output": 696
+  },
+  {
+    "prompt": "Research the history of hip hop",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Compare the features of two e-commerce platforms Shopify and BigCommerce",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Generate a web page that displays a chart containing the population growth rate in different countries.",
+    "rl_step": 0,
+    "output": 1124
+  },
+  {
+    "prompt": "Compose a report about the impact of global warming on the Arctic region.",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Design a web page with 5 navigation items",
+    "rl_step": 0,
+    "output": 583
+  },
+  {
+    "prompt": "Design a class that represents a clothing brand.",
+    "rl_step": 0,
+    "output": 747
+  },
+  {
+    "prompt": "Make a comparison between the given countries. Australia and China",
+    "rl_step": 0,
+    "output": 520
+  },
+  {
+    "prompt": "Write an article about the advantages of using a GPT model for natural language understanding.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Design a chatbot conversation structure for a banking chatbot",
+    "rl_step": 0,
+    "output": 548
+  },
+  {
+    "prompt": "Write a C++ library that implements a linked list",
+    "rl_step": 0,
+    "output": 656
+  },
+  {
+    "prompt": "Generate a 500-word story about a man who finds himself in an unfamiliar city.",
+    "rl_step": 0,
+    "output": 514
+  },
+  {
+    "prompt": "How to create an email template?",
+    "rl_step": 0,
+    "output": 530
+  },
+  {
+    "prompt": "Generate a blog post on the topic of \"How to Study for an Online Course\"",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "List the elements of the periodic table in the order of increasing atomic number.",
+    "rl_step": 0,
+    "output": 511
+  },
+  {
+    "prompt": "Explain the rules and strategies of playing a game of chess. Noinput",
+    "rl_step": 0,
+    "output": 520
+  },
+  {
+    "prompt": "Generate a creative story about a princess and a dragon.",
+    "rl_step": 0,
+    "output": 528
+  },
+  {
+    "prompt": "Create a policy document on a topic related to internet security",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Generate a list of US Presidents.",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "Design a calendar for next week",
+    "rl_step": 0,
+    "output": 1307
+  },
+  {
+    "prompt": "Prepare a business plan outlining a new mobile application",
+    "rl_step": 0,
+    "output": 527
+  },
+  {
+    "prompt": "Write a blog post about the benefits of using a virtual assistant",
+    "rl_step": 0,
+    "output": 528
+  },
+  {
+    "prompt": "Generate a sample of valid HTML code.",
+    "rl_step": 0,
+    "output": 771
+  },
+  {
+    "prompt": "Generate a report on a given topic. The Impact of Social Media on Education",
+    "rl_step": 0,
+    "output": 504
+  },
+  {
+    "prompt": "Construct a financial model to analyze the costs of running a store for a given year. The store has an inventory of 100 items and the average cost of each item is $50.",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Generate a 500-word creative story beginning with the following sentence: The snow fell silently as I walked along the old street.",
+    "rl_step": 0,
+    "output": 514
+  },
+  {
+    "prompt": "Generate a table of frequencies for the following text. The quick brown fox jumps over the lazy dog.",
+    "rl_step": 0,
+    "output": 661
+  },
+  {
+    "prompt": "Identify the hyperbola that passes through the given points. Points: (3,4), (2,-6)",
+    "rl_step": 0,
+    "output": 516
+  },
+  {
+    "prompt": "Write a blog post on why small businesses should invest in SEO",
+    "rl_step": 0,
+    "output": 521
+  },
+  {
+    "prompt": "Find scientific evidence for the following statement. Smog is damaging for human health.",
+    "rl_step": 0,
+    "output": 502
+  },
+  {
+    "prompt": "Design an online course on HTML.",
+    "rl_step": 0,
+    "output": 551
+  },
+  {
+    "prompt": "Create five sets of dialogue for two characters talking about sports.",
+    "rl_step": 0,
+    "output": 529
+  },
+  {
+    "prompt": "Research a recipe for a specific dish Dish: Greek Moussaka",
+    "rl_step": 0,
+    "output": 506
+  },
+  {
+    "prompt": "Create a quiz about the history of the United States",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Design an airplane seating chart.",
+    "rl_step": 0,
+    "output": 932
+  },
+  {
+    "prompt": "Design a coding exercise that tests basic understanding of object-oriented programming.",
+    "rl_step": 0,
+    "output": 526
+  },
+  {
+    "prompt": "Compose a song in the key of B minor.",
+    "rl_step": 0,
+    "output": 791
+  },
+  {
+    "prompt": "Create a program that can detect a respiratory illness.",
+    "rl_step": 0,
+    "output": 643
+  },
+  {
+    "prompt": "Design an algorithm to solve the Eight Queens puzzle",
+    "rl_step": 0,
+    "output": 562
+  },
+  {
+    "prompt": "Create a table comparing different mobile phones.",
+    "rl_step": 0,
+    "output": 556
+  },
+  {
+    "prompt": "Generate a business plan for a pet-sitting business.",
+    "rl_step": 0,
+    "output": 530
+  },
+  {
+    "prompt": "Compile the list of all national parks in the United States.",
+    "rl_step": 0,
+    "output": 541
+  },
+  {
+    "prompt": "Create an essay on the causes of child obesity.",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Create a class for a computer programming language.",
+    "rl_step": 0,
+    "output": 550
+  },
+  {
+    "prompt": "Build a random forest regression model to predict the house prices based on the the given data. Data (nume, size, Balcony, Bedroom, Distance_Train, Cost, Outlay): \n3602, 3, 1,3,17Km, 207000,6380 \n2375, 2, 1,2,27Km, 152000,3900 \n1360, 2, 1,2,21Km, 55000,4180 \n1800, 4, 2,3,30Km, 115000,5350",
+    "rl_step": 0,
+    "output": 554
+  },
+  {
+    "prompt": "Generate a thousand words of text based on the given prompt. Prompt:\nThe old woman walked through the dense forest.",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "Design a website for an international travel agency.",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Describe how the world has changed due to the Covid-19 pandemic.",
+    "rl_step": 0,
+    "output": 530
+  },
+  {
+    "prompt": "Generate an original fairy tale.",
+    "rl_step": 0,
+    "output": 508
+  },
+  {
+    "prompt": "Write an appropriate 500-word story about a surprise birthday party.",
+    "rl_step": 0,
+    "output": 536
+  },
+  {
+    "prompt": "Generate a list of 10 most influential people in the history of computer science.",
+    "rl_step": 0,
+    "output": 511
+  },
+  {
+    "prompt": "Write a scientific paper about studying the effectiveness of artificial intelligence",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Generate a blog post of at least 500 words about machine learning.",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Create a modal view in a web application. Requirement: The modal shape is going to be rounded rectangle with a grey background.",
+    "rl_step": 0,
+    "output": 578
+  },
+  {
+    "prompt": "Write a 500 word article about the benefits of organic food.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Write a travel guide for Lapland, Finland.",
+    "rl_step": 0,
+    "output": 530
+  },
+  {
+    "prompt": "You need to write a blog post discussing the effects of climate change on global bee populations.",
+    "rl_step": 0,
+    "output": 507
+  },
+  {
+    "prompt": "Generate an essay on the following topic The impact of technology on society",
+    "rl_step": 0,
+    "output": 511
+  },
+  {
+    "prompt": "Compare the features of two mobile phones. iPhone 11 Pro and Samsung Galaxy S20 Ultra",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Write a play about Romeo and Juliet.",
+    "rl_step": 0,
+    "output": 529
+  },
+  {
+    "prompt": "Create a web page to allow users to register for your workshop.",
+    "rl_step": 0,
+    "output": 523
+  },
+  {
+    "prompt": "Create an example of what a plausible Wikipedia page for an imaginary character might look like. Latron Melky",
+    "rl_step": 0,
+    "output": 527
+  },
+  {
+    "prompt": "Explain the process of making wine.",
+    "rl_step": 0,
+    "output": 527
+  },
+  {
+    "prompt": "Generate a script in Python which will convert given numbers in to words.",
+    "rl_step": 0,
+    "output": 651
+  },
+  {
+    "prompt": "Create a website landing page that entices visitors to sign up. Product: Online course teaching essential coding concepts",
+    "rl_step": 0,
+    "output": 660
+  },
+  {
+    "prompt": "Design a survey to assess the attitude of high school students towards the internet.",
+    "rl_step": 0,
+    "output": 527
+  },
+  {
+    "prompt": "Generate a script of a drama film",
+    "rl_step": 0,
+    "output": 549
+  },
+  {
+    "prompt": "Generate a list of all the possible cities in the United States that start with the letter \"K\".",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Create an example budget for a family income of $30,000 per year.",
+    "rl_step": 0,
+    "output": 842
+  },
+  {
+    "prompt": "Generate a data-driven research report on the effects of COVID-19 in the food industry.",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "Design an algorithm for finding the longest common subsequence between two strings s1 = 'ABCDGH'\ns2 = 'AEDFHR'",
+    "rl_step": 0,
+    "output": 542
+  },
+  {
+    "prompt": "Construct a sample web form to apply for a job.",
+    "rl_step": 0,
+    "output": 613
+  },
+  {
+    "prompt": "Discuss the challenges of using Machine Learning",
+    "rl_step": 0,
+    "output": 519
+  },
+  {
+    "prompt": "Design a game involving numbers that could be used in the classroom.",
+    "rl_step": 0,
+    "output": 518
+  },
+  {
+    "prompt": "Develop a public relations plan for a new fashion brand.",
+    "rl_step": 0,
+    "output": 507
+  },
+  {
+    "prompt": "Write an article describing a new technology. The new technology is called AI-Powered Image Recognition.",
+    "rl_step": 0,
+    "output": 541
+  },
+  {
+    "prompt": "Write a 500-word essay about the benefits of a healthy lifestyle.",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Create a user manual for the following product A new electric car",
+    "rl_step": 0,
+    "output": 542
+  },
+  {
+    "prompt": "Given a set of survey results, make a data visualization that summarizes the results. Survey results of the top 10 countries that people visit most.",
+    "rl_step": 0,
+    "output": 511
+  },
+  {
+    "prompt": "Create a model to predict the demand of local produce in a specific region",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Write a story about a person living in a futuristic city wishing to explore the outside world.",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "Discuss the pros and cons of using a GPT-3 model.",
+    "rl_step": 0,
+    "output": 514
+  },
+  {
+    "prompt": "Describe the different parts of a camera.",
+    "rl_step": 0,
+    "output": 503
+  },
+  {
+    "prompt": "Generate a list of chemical elements.",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Compare and contrast IPv4 and IPv6.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Describe the process of writing a song from start to finish.",
+    "rl_step": 0,
+    "output": 518
+  },
+  {
+    "prompt": "Given the following list of ingredients, provide 3 unique recipes using at least 4 of the listed ingredients. Ingredients: potatoes, carrots, celery, onions, garlic",
+    "rl_step": 0,
+    "output": 516
+  },
+  {
+    "prompt": "Generate a quiz about physics.",
+    "rl_step": 0,
+    "output": 523
+  },
+  {
+    "prompt": "Construct a 5-day lesson plan teaching basic computer coding to middle-school students.",
+    "rl_step": 0,
+    "output": 547
+  },
+  {
+    "prompt": "Generate a sample lesson plan for teaching Maths to elementary school students.",
+    "rl_step": 0,
+    "output": 520
+  },
+  {
+    "prompt": "Analyze the benefits and limitations of using GPT-3 for natural language generation.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Generate two thousand words of dialogue between two characters. Characters: Audrey and Max",
+    "rl_step": 0,
+    "output": 589
+  },
+  {
+    "prompt": "Write a persuasive essay arguing for the importance of protecting endangered species.",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "Write a business proposal outlining an SEO strategy for a small business The business is a shoe store.",
+    "rl_step": 0,
+    "output": 521
+  },
+  {
+    "prompt": "Write a blog post highlighting the benefits of volunteering work.",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "Specify the components of the UN Sustainable Development Goals.",
+    "rl_step": 0,
+    "output": 503
+  },
+  {
+    "prompt": "Compare and contrast the pros and cons of market economies and planned economies.",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Write four articles on the topic of cryptocurrency with a minimum of 300 words each.",
+    "rl_step": 0,
+    "output": 516
+  },
+  {
+    "prompt": "Design a web page to display the current weather.",
+    "rl_step": 0,
+    "output": 1147
+  },
+  {
+    "prompt": "Summarize the timeline of important events leading to World War II.",
+    "rl_step": 0,
+    "output": 503
+  },
+  {
+    "prompt": "Design a travel plan for a 3-day trip to Barcelona.",
+    "rl_step": 0,
+    "output": 502
+  },
+  {
+    "prompt": "Create a web page for a given topic. Topic: Outdoor Adventure",
+    "rl_step": 0,
+    "output": 647
+  },
+  {
+    "prompt": "Generate an timeline of the major events in the history of photography.",
+    "rl_step": 0,
+    "output": 505
+  },
+  {
+    "prompt": "Generate a travel guide for Tokyo.",
+    "rl_step": 0,
+    "output": 520
+  },
+  {
+    "prompt": "Write a classification essay about pet animals.",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "What are the main steps used in Machine Learning?",
+    "rl_step": 0,
+    "output": 511
+  },
+  {
+    "prompt": "Create a program that can generate random Shakespearean insults.",
+    "rl_step": 0,
+    "output": 559
+  },
+  {
+    "prompt": "Compare and contrast the two sports Soccer and American Football.",
+    "rl_step": 0,
+    "output": 502
+  },
+  {
+    "prompt": "Generate a story in which a character has a difficult decision to make",
+    "rl_step": 0,
+    "output": 508
+  },
+  {
+    "prompt": "Create an algorithm for solving a Tower of Hanoi problem.",
+    "rl_step": 0,
+    "output": 596
+  },
+  {
+    "prompt": "Describe a design process for creating a new website.",
+    "rl_step": 0,
+    "output": 529
+  },
+  {
+    "prompt": "Train a SVM model for the given dataset.",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Formulate an optimal budget plan to spend $20,000 on marketing activities.",
+    "rl_step": 0,
+    "output": 528
+  },
+  {
+    "prompt": "Design a software component for ordering pizza.",
+    "rl_step": 0,
+    "output": 539
+  },
+  {
+    "prompt": "Create a web page that explains the importance of vaccinations for children.",
+    "rl_step": 0,
+    "output": 505
+  },
+  {
+    "prompt": "Write a blog post discussing the pros and cons of online learning.",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Write a blog post discussing new trends in data science",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Generate an example of a class inheritance hierarchy.",
+    "rl_step": 0,
+    "output": 700
+  },
+  {
+    "prompt": "Misconceptions about global warming",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "Generate a persuasive essay with the topic: Pets are better than cars",
+    "rl_step": 0,
+    "output": 519
+  },
+  {
+    "prompt": "Generate a recipe for a classic apple pie.",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "Explain the engineering design process.",
+    "rl_step": 0,
+    "output": 534
+  },
+  {
+    "prompt": "Write a blog post discussing the current trends in AI.",
+    "rl_step": 0,
+    "output": 531
+  },
+  {
+    "prompt": "Create a program to identify whether a person is speaking English or Spanish.",
+    "rl_step": 0,
+    "output": 656
+  },
+  {
+    "prompt": "Compose a 500 word essay discussing the pros and cons of genetically modified food",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Generate a story about a an adventure in a science-fiction world.",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "Write a essay in 500 words, presenting your opinion on the following topic. The applications of Artificial Intelligence have been advancing exponentially over the last decade, resulting in promising solutions in the fields of healthcare and finance.",
+    "rl_step": 0,
+    "output": 524
+  },
+  {
+    "prompt": "Describe the characters in the Lord of the Rings trilogy.",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Create a program to categorize animals into different groups.",
+    "rl_step": 0,
+    "output": 550
+  },
+  {
+    "prompt": "Construct an animated movie about a tiger.",
+    "rl_step": 0,
+    "output": 564
+  },
+  {
+    "prompt": "Generate an essay on the problems caused by global warming",
+    "rl_step": 0,
+    "output": 506
+  },
+  {
+    "prompt": "Come up with a creative idea for a play that involves a war between two mythical creatures.",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "Draft a screenplay for a comedic short film.",
+    "rl_step": 0,
+    "output": 531
+  },
+  {
+    "prompt": "Create a library of code that implements a linked list data structure.",
+    "rl_step": 0,
+    "output": 789
+  },
+  {
+    "prompt": "Create a web page for an online pet store.",
+    "rl_step": 0,
+    "output": 1198
+  },
+  {
+    "prompt": "Generate a résumé for a software engineer.",
+    "rl_step": 0,
+    "output": 533
+  },
+  {
+    "prompt": "Create an algorithm for playing tic tac toe in Python.",
+    "rl_step": 0,
+    "output": 640
+  },
+  {
+    "prompt": "Write an 1850-word horror story.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Construct a portfolio of 10 stocks using the following categories. Industry: Technology, Risk: High, Geographic location: Global",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Write an instruction manual on how to use a given product. Vacuum cleaner",
+    "rl_step": 0,
+    "output": 528
+  },
+  {
+    "prompt": "Compose an essay answering the following prompt: What are the main differences between a cat and a dog?",
+    "rl_step": 0,
+    "output": 511
+  },
+  {
+    "prompt": "Write a children's nursery rhyme",
+    "rl_step": 0,
+    "output": 535
+  },
+  {
+    "prompt": "Write a \"how to\" guide for playing a specific board game. The board game is called Cheating Charlie.",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Create a computer program to play a game of tic-tac-toe",
+    "rl_step": 0,
+    "output": 797
+  },
+  {
+    "prompt": "Write an argumentative essay about why climate change is an urgent issue.",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Write a blog post on the importance of content marketing for small businesses.",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Create an API that takes a text as an input and returns the sentiment score.",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Write an algorithm to print the nth element in a Fibonacci sequence.",
+    "rl_step": 0,
+    "output": 623
+  },
+  {
+    "prompt": "Generate a story with a title \"The Adventure of Shadowman\"",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "Add two sentences to this short story and make it at least 500 words. The King liked to take long walks in the woods. He always found something interesting and unexpected during his strolls.",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Develop an HTML page from scratch introducing a pet store.",
+    "rl_step": 0,
+    "output": 757
+  },
+  {
+    "prompt": "Design a Chutes and Ladders board game",
+    "rl_step": 0,
+    "output": 531
+  },
+  {
+    "prompt": "Prepare a sample document to propose a new project.",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Create a website using HTML and CSS.",
+    "rl_step": 0,
+    "output": 736
+  },
+  {
+    "prompt": "Generate a new Wikipedia article The Tibetan Wolf",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Design a program which takes numbers between 0 and 9,999 and prints the spoken version of the number.",
+    "rl_step": 0,
+    "output": 793
+  },
+  {
+    "prompt": "Create a tic-tac-toe game.",
+    "rl_step": 0,
+    "output": 811
+  },
+  {
+    "prompt": "Generate a program that can find the longest pallindrome in a given string String = \"ababad\"",
+    "rl_step": 0,
+    "output": 531
+  },
+  {
+    "prompt": "Describe the process of geothermal energy production.",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Compose a 500-word essay about the importance of education.",
+    "rl_step": 0,
+    "output": 519
+  },
+  {
+    "prompt": "Build a web page with the following guidelines. Create a web page that offers a product or service.",
+    "rl_step": 0,
+    "output": 744
+  },
+  {
+    "prompt": "Create a user guide for an online course. Course description: This 10-week course covers the fundamentals of web development.",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Create an algorithm that divides a given array of numbers into two sets such that the sum of the elements in each set is the same. [5, 10, 15, 20]",
+    "rl_step": 0,
+    "output": 661
+  },
+  {
+    "prompt": "Generate an essay discussing the benefits of online education compared to traditional education.",
+    "rl_step": 0,
+    "output": 516
+  },
+  {
+    "prompt": "Compose a blog article on the importance of exercise.",
+    "rl_step": 0,
+    "output": 530
+  },
+  {
+    "prompt": "Compose a blog post explaining why Python is the ideal programming language for data science.",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "How does a person set good goals?",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Create a sport with a set of rules.",
+    "rl_step": 0,
+    "output": 508
+  },
+  {
+    "prompt": "Create a story about a young girl who dreams of being a space explorer.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Create a report outlining the advantages and disadvantages of using [Machine Learning] in a certain industry.",
+    "rl_step": 0,
+    "output": 528
+  },
+  {
+    "prompt": "Generate an essay on the current challenges in the field of [Robotics].",
+    "rl_step": 0,
+    "output": 521
+  },
+  {
+    "prompt": "Create a computer algorithm that can play tic-tac-toe.",
+    "rl_step": 0,
+    "output": 861
+  },
+  {
+    "prompt": "Create a program that can play tic-tac-toe against a human player.",
+    "rl_step": 0,
+    "output": 672
+  },
+  {
+    "prompt": "Design a web page with two columns and a footer.",
+    "rl_step": 0,
+    "output": 674
+  },
+  {
+    "prompt": "Create a coding program to encrypt a message using the Caesar cipher. Message: \"Hello World\"",
+    "rl_step": 0,
+    "output": 639
+  },
+  {
+    "prompt": "Construct a neural network model capable of predicting the future stock price based on historical stock price data. Example of historical data: [20,19.5,23,22.5,25,24.5]",
+    "rl_step": 0,
+    "output": 611
+  },
+  {
+    "prompt": "Write some pseudo-code to implement merge sort.",
+    "rl_step": 0,
+    "output": 672
+  },
+  {
+    "prompt": "Write code to convert an array of integers into a binary tree. Input array: [1, 2, 3, 4]",
+    "rl_step": 0,
+    "output": 553
+  },
+  {
+    "prompt": "Generate a 500-word blog post summarizing the current status of artificial intelligence.",
+    "rl_step": 0,
+    "output": 520
+  },
+  {
+    "prompt": "Write a blog post titled \"Five Reasons You Should Invest in Stocks\".",
+    "rl_step": 0,
+    "output": 529
+  },
+  {
+    "prompt": "Generate a sequence of HTML code to create a landing page.",
+    "rl_step": 0,
+    "output": 686
+  },
+  {
+    "prompt": "Develop a chatbot that answers common questions related to air travel.",
+    "rl_step": 0,
+    "output": 537
+  },
+  {
+    "prompt": "Design an algorithm to find the combination of dice when given a target sum. Target Sum = 9",
+    "rl_step": 0,
+    "output": 661
+  },
+  {
+    "prompt": "Create a dataset for predicting wine quality. No Input",
+    "rl_step": 0,
+    "output": 891
+  },
+  {
+    "prompt": "Construct a web page for a fictitious online store called 'MyStore'.",
+    "rl_step": 0,
+    "output": 815
+  },
+  {
+    "prompt": "Generate a PowerPoint presentation about the history of the internet.",
+    "rl_step": 0,
+    "output": 505
+  },
+  {
+    "prompt": "Write an essay on the three major sociological theories",
+    "rl_step": 0,
+    "output": 511
+  },
+  {
+    "prompt": "Write a story of 500 words involving magic.",
+    "rl_step": 0,
+    "output": 531
+  },
+  {
+    "prompt": "Describe the components needed to build a custom gaming computer.",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Write a term paper on the topic \"Benefits of Sleep\". Noinput",
+    "rl_step": 0,
+    "output": 526
+  },
+  {
+    "prompt": "Write an article that explains the role of analytics in marketing.",
+    "rl_step": 0,
+    "output": 524
+  },
+  {
+    "prompt": "Describe how a website can be optimized for search engines",
+    "rl_step": 0,
+    "output": 531
+  },
+  {
+    "prompt": "Synthesize a blog post. Topic: Working from home.",
+    "rl_step": 0,
+    "output": 530
+  },
+  {
+    "prompt": "Find the inverse of the matrix. $\\begin{bmatrix}1 & -3 & 2\\\\3 & 2 & 1 \\\\ 4 & 0 & -1\\end{bmatrix}$",
+    "rl_step": 0,
+    "output": 534
+  },
+  {
+    "prompt": "Develop a machine learning model to predict the price of a given stock. The historical daily price data of three stocks of a technology company, namely ABC stock, XYZ stock and PQR stock, from the past 5 years.",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Write a blog post about gardening tips for beginners.",
+    "rl_step": 0,
+    "output": 535
+  },
+  {
+    "prompt": "Generate a fitness routine",
+    "rl_step": 0,
+    "output": 529
+  },
+  {
+    "prompt": "Create an algorithm for solving a Rubik's cube for beginners.",
+    "rl_step": 0,
+    "output": 531
+  },
+  {
+    "prompt": "Write a creative piece of fiction",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Design a blog post that promotes the benefits of a vegetarian lifestyle",
+    "rl_step": 0,
+    "output": 506
+  },
+  {
+    "prompt": "Generate a fantasy story using the characters and settings given in the input. Characters: Elves, Dwarves, Wizard\nLocation: Forest",
+    "rl_step": 0,
+    "output": 506
+  },
+  {
+    "prompt": "Create a flow chart to illustrate the customer purchase journey.",
+    "rl_step": 0,
+    "output": 656
+  },
+  {
+    "prompt": "Design a web page that allows a user to sign up for an email list.",
+    "rl_step": 0,
+    "output": 691
+  },
+  {
+    "prompt": "Generate a 500 word story about a story centered on a robotic cat John loved cats and dreamed of having one, but his family didn't have the resources to take care of an animal. One day, John heard about the new robotic cats and decided to save his money for one.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Write a code that sends a reminder email Target Date: August 15, 2022\n\nSubject: Greeting Message",
+    "rl_step": 0,
+    "output": 546
+  },
+  {
+    "prompt": "Design a machine learning model to detect spam emails.",
+    "rl_step": 0,
+    "output": 539
+  },
+  {
+    "prompt": "Construct an itinerary for a tourist visiting London, England. Duration of stay: 7 days",
+    "rl_step": 0,
+    "output": 535
+  },
+  {
+    "prompt": "How would you identify and resolve a DNS issue on a host computer?",
+    "rl_step": 0,
+    "output": 533
+  },
+  {
+    "prompt": "Create a flow chart to explain the working of a web browser.",
+    "rl_step": 0,
+    "output": 1042
+  },
+  {
+    "prompt": "Write a blog post discussing the importance of diversity in workplace.",
+    "rl_step": 0,
+    "output": 527
+  },
+  {
+    "prompt": "Write a story about a character discovering their true identity",
+    "rl_step": 0,
+    "output": 505
+  },
+  {
+    "prompt": "Document the steps for changing the oil in a car.",
+    "rl_step": 0,
+    "output": 536
+  },
+  {
+    "prompt": "Write an article about the key points of public speaking.",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Generate an example of a data set with 100 records of customers and their corresponding occupations.",
+    "rl_step": 0,
+    "output": 1096
+  },
+  {
+    "prompt": "Describe the process for starting a business.",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Write a blog post on the importance of spending time outdoors.",
+    "rl_step": 0,
+    "output": 504
+  },
+  {
+    "prompt": "Write a blog post about renewable energy sources.",
+    "rl_step": 0,
+    "output": 531
+  },
+  {
+    "prompt": "Create a protocol for cleaning a kitchen.",
+    "rl_step": 0,
+    "output": 531
+  },
+  {
+    "prompt": "Write an algorithm to sort an array of unordered numbers.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Create a poster highlighting the potential benefits of electric cars.",
+    "rl_step": 0,
+    "output": 956
+  },
+  {
+    "prompt": "Generate a creative story which is at least 500 words long.",
+    "rl_step": 0,
+    "output": 505
+  },
+  {
+    "prompt": "Create a story set in a fantasy world involving a character called \"The Shapeshifter\"",
+    "rl_step": 0,
+    "output": 503
+  },
+  {
+    "prompt": "Describe how to change a tire.",
+    "rl_step": 0,
+    "output": 523
+  },
+  {
+    "prompt": "Compose a rap song with the given title. \"Live In The Moment\"",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Generate a transcript for a 5 minute podcast with the given prompt. Prompt: The Increasing Popularity of Veganism",
+    "rl_step": 0,
+    "output": 505
+  },
+  {
+    "prompt": "Add animations to a web page.",
+    "rl_step": 0,
+    "output": 583
+  },
+  {
+    "prompt": "Create a tutorial explaining what artificial intelligence is",
+    "rl_step": 0,
+    "output": 533
+  },
+  {
+    "prompt": "Develop a layout for a survey asking participants about their shopping habits.",
+    "rl_step": 0,
+    "output": 584
+  },
+  {
+    "prompt": "Write a script for a short play about a group of people trying to survive a significant natural disaster.",
+    "rl_step": 0,
+    "output": 526
+  },
+  {
+    "prompt": "Construct a class to represent an airplane.",
+    "rl_step": 0,
+    "output": 739
+  },
+  {
+    "prompt": "Design an invoice template using HTML.",
+    "rl_step": 0,
+    "output": 632
+  },
+  {
+    "prompt": "Write a 500-word story in the horror genre.",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Write a blog post about the most popular tourist attractions in Tokyo",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Generate a story about a farmer who finds a genie in a lamp.",
+    "rl_step": 0,
+    "output": 521
+  },
+  {
+    "prompt": "Assume you are a web designer, create an HTML layout using CSS classes. No input",
+    "rl_step": 0,
+    "output": 698
+  },
+  {
+    "prompt": "Create a blog post that explains public-key cryptography. No input",
+    "rl_step": 0,
+    "output": 527
+  },
+  {
+    "prompt": "Create a chart to describe the process of converting a sentence to a vector. No input",
+    "rl_step": 0,
+    "output": 793
+  },
+  {
+    "prompt": "Create a spreadsheet to track sales goals for a business.",
+    "rl_step": 0,
+    "output": 547
+  },
+  {
+    "prompt": "Create a script for performing basic computations with text data.",
+    "rl_step": 0,
+    "output": 535
+  },
+  {
+    "prompt": "Generate a 3-month budget plan for a household of 4.",
+    "rl_step": 0,
+    "output": 579
+  },
+  {
+    "prompt": "Generate an example of a valid HTML5 document",
+    "rl_step": 0,
+    "output": 823
+  },
+  {
+    "prompt": "Describe the process of launching rockets into space.",
+    "rl_step": 0,
+    "output": 523
+  },
+  {
+    "prompt": "Create a technical design document for this chatbot feature. The chatbot should be able to answer questions about a company's products.",
+    "rl_step": 0,
+    "output": 550
+  },
+  {
+    "prompt": "Write a function to convert a year from Gregorian calendar to Mayan calendar",
+    "rl_step": 0,
+    "output": 541
+  },
+  {
+    "prompt": "Write a 500-word article on the importance of climate change awareness",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Compile a list of inventions in the last century with a brief description of each one. No input",
+    "rl_step": 0,
+    "output": 506
+  },
+  {
+    "prompt": "Write a detailed instruction on how to change a tire.",
+    "rl_step": 0,
+    "output": 523
+  },
+  {
+    "prompt": "Generate an essay of at least 500 words that argues in favor of regulating artificial intelligence.",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Tune a 6-string acoustic guitar.",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Compose a magazine article targeting young adults",
+    "rl_step": 0,
+    "output": 554
+  },
+  {
+    "prompt": "Provide instructions for changing a bicycle tire.",
+    "rl_step": 0,
+    "output": 516
+  },
+  {
+    "prompt": "Write an article introducing the city of Paris.",
+    "rl_step": 0,
+    "output": 519
+  },
+  {
+    "prompt": "Generate an original story set in an urban cityscape.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "List the processes or steps needed to dye fabric using natural dyes",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Use Heuristic search to find the way the PacMan should traverse to reach the goal node. PacMan is located at (1,1), and the goal node is at (3,3).",
+    "rl_step": 0,
+    "output": 534
+  },
+  {
+    "prompt": "Create 10 multiple-choice questions about quantum physics. Topic: Wave-Particle Duality",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Create a flow chart to represent a given algorithm. Bubble Sort Algorithm",
+    "rl_step": 0,
+    "output": 2679
+  },
+  {
+    "prompt": "Create a song in the key of C major.",
+    "rl_step": 0,
+    "output": 1026
+  },
+  {
+    "prompt": "Write a 400-word article summarizing the given topic. The history of pizza",
+    "rl_step": 0,
+    "output": 535
+  },
+  {
+    "prompt": "Create a lesson plan to teach a 6th grader the basics of strategic planning.",
+    "rl_step": 0,
+    "output": 550
+  },
+  {
+    "prompt": "Create a study guide for the given subject. Physics",
+    "rl_step": 0,
+    "output": 551
+  },
+  {
+    "prompt": "Create a blog post on the importance of international volunteering.",
+    "rl_step": 0,
+    "output": 526
+  },
+  {
+    "prompt": "Generate a product security policy following best practices.",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "Create a flow chart to describe the process of collecting a debt.",
+    "rl_step": 0,
+    "output": 1905
+  },
+  {
+    "prompt": "Generate a valid JSON schema for a customer profile.",
+    "rl_step": 0,
+    "output": 1363
+  },
+  {
+    "prompt": "Create a data modeling design for a system to track medical records.",
+    "rl_step": 0,
+    "output": 584
+  },
+  {
+    "prompt": "Construct a function that determines the number of days in a given month using the month name and date.",
+    "rl_step": 0,
+    "output": 518
+  },
+  {
+    "prompt": "Create a research-based paper on the importance of recycling.",
+    "rl_step": 0,
+    "output": 539
+  },
+  {
+    "prompt": "Research and compare the pros and cons of online education and traditional classroom education.",
+    "rl_step": 0,
+    "output": 538
+  },
+  {
+    "prompt": "What is the process for securing a mortgage loan?",
+    "rl_step": 0,
+    "output": 534
+  },
+  {
+    "prompt": "Generate a list of countries and their respective flags.",
+    "rl_step": 0,
+    "output": 503
+  },
+  {
+    "prompt": "Make a webpage dedicated to the services your company offers.",
+    "rl_step": 0,
+    "output": 716
+  },
+  {
+    "prompt": "Create a case study about the following topics, focusing on the advantages and disadvantages of using machine learning.",
+    "rl_step": 0,
+    "output": 524
+  },
+  {
+    "prompt": "Explain the differences between the 7 Chakras.",
+    "rl_step": 0,
+    "output": 519
+  },
+  {
+    "prompt": "Create a leadership training program.",
+    "rl_step": 0,
+    "output": 523
+  },
+  {
+    "prompt": "Create a program that logs the temperature of the computer and limits its usage depending on the given value.",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "Summarize the key points of a research paper in 500 words. Topic: The effects of climate change on global agriculture",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Write an article about the advantages and disadvantages of online learning.",
+    "rl_step": 0,
+    "output": 530
+  },
+  {
+    "prompt": "Come up with a business plan for a childcare centre.",
+    "rl_step": 0,
+    "output": 544
+  },
+  {
+    "prompt": "Create a recipe for strawberry cake",
+    "rl_step": 0,
+    "output": 519
+  },
+  {
+    "prompt": "Create a story of a child who is afraid of the dark",
+    "rl_step": 0,
+    "output": 546
+  },
+  {
+    "prompt": "Build a basic blog using HTML and CSS.",
+    "rl_step": 0,
+    "output": 838
+  },
+  {
+    "prompt": "Write 500 words about the implications of introducing artificial intelligence into our society.",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "Come up with an algorithm for predicting house prices in a given city.",
+    "rl_step": 0,
+    "output": 524
+  },
+  {
+    "prompt": "Generate a list of landscape gardening projects for a garden that is 30m by 20m. Garden size: 30m by 20m",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Generate two exercise plans for a beginner who wants to lose weight.",
+    "rl_step": 0,
+    "output": 508
+  },
+  {
+    "prompt": "Create a game plan for a presentation about climate change.",
+    "rl_step": 0,
+    "output": 530
+  },
+  {
+    "prompt": "Construct a flow chart that depicts the process of making a sandwich",
+    "rl_step": 0,
+    "output": 1709
+  },
+  {
+    "prompt": "Create a blog post to discuss the current immigration laws in the United States",
+    "rl_step": 0,
+    "output": 502
+  },
+  {
+    "prompt": "Research and write an essay on the current challenges facing global climate change",
+    "rl_step": 0,
+    "output": 503
+  },
+  {
+    "prompt": "Write a blog post about marketing strategies to reach a target audience.",
+    "rl_step": 0,
+    "output": 518
+  },
+  {
+    "prompt": "Generate a travel blog article discussing the pros and cons of <mask> compared to the other tourist destination in India. Jaipur",
+    "rl_step": 0,
+    "output": 552
+  },
+  {
+    "prompt": "Design a database to store information about customers",
+    "rl_step": 0,
+    "output": 536
+  },
+  {
+    "prompt": "Design a car parking system",
+    "rl_step": 0,
+    "output": 531
+  },
+  {
+    "prompt": "Explain how to solve a Rubik's cube.",
+    "rl_step": 0,
+    "output": 526
+  },
+  {
+    "prompt": "Generate a folktale or legend.",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Create a resume for a newly graduated computer science student.",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "Create the HTML code for a website with a header and a body.",
+    "rl_step": 0,
+    "output": 504
+  },
+  {
+    "prompt": "Create a blog post about your favorite travel destination. My favorite travel destination is Italy.",
+    "rl_step": 0,
+    "output": 523
+  },
+  {
+    "prompt": "Explain how to install and run a Docker container on a Linux server.",
+    "rl_step": 0,
+    "output": 538
+  },
+  {
+    "prompt": "Create an HTML email template that promotes a new product.",
+    "rl_step": 0,
+    "output": 984
+  },
+  {
+    "prompt": "Write a user manual for a new smart phone.",
+    "rl_step": 0,
+    "output": 542
+  },
+  {
+    "prompt": "How do you create a linked list in C++?",
+    "rl_step": 0,
+    "output": 639
+  },
+  {
+    "prompt": "How would you create a website similar to Reddit?",
+    "rl_step": 0,
+    "output": 508
+  },
+  {
+    "prompt": "Create a data structure to represent a grocery store checkout system.",
+    "rl_step": 0,
+    "output": 822
+  },
+  {
+    "prompt": "Develop a training protocol for new employees.",
+    "rl_step": 0,
+    "output": 536
+  },
+  {
+    "prompt": "Create a recipe for a delicious and healthy vegan three-course meal.",
+    "rl_step": 0,
+    "output": 514
+  },
+  {
+    "prompt": "Generate a story about a forest ranger exploring an uncharted area.",
+    "rl_step": 0,
+    "output": 511
+  },
+  {
+    "prompt": "Design a 10-day workout plan to achieve maximum results.",
+    "rl_step": 0,
+    "output": 514
+  },
+  {
+    "prompt": "Describe the geographical differences between the states of California and Texas. <no input>",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Design a program that teaches students about data structures.",
+    "rl_step": 0,
+    "output": 503
+  },
+  {
+    "prompt": "Give an example of a PHP-MySQL based login system.",
+    "rl_step": 0,
+    "output": 653
+  },
+  {
+    "prompt": "Design a style guide for a website design project",
+    "rl_step": 0,
+    "output": 533
+  },
+  {
+    "prompt": "Describe the process of panning for gold",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Write an algorithm to sort the numbers in an array from highest to lowest. [3, 9, 8, 5, 1, 11]",
+    "rl_step": 0,
+    "output": 520
+  },
+  {
+    "prompt": "Can you share a sample article based on the given topic? Topic: Advantages and Disadvantages of Artificial Intelligence",
+    "rl_step": 0,
+    "output": 527
+  },
+  {
+    "prompt": "Describe the characters from the novel To Kill a Mockingbird.",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Give a speech about the importance of healthy eating.",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Develop a business plan for a small cleaning service.",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Write a novel about a swashbuckling pirate.",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Write an imaginative story",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Generate a cheat sheet for a math test",
+    "rl_step": 0,
+    "output": 521
+  },
+  {
+    "prompt": "Create a professional powerpoint presentation about the benefits of using a financial planner.",
+    "rl_step": 0,
+    "output": 507
+  },
+  {
+    "prompt": "Write an article on the pros and cons of social media usage. N/A",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Explain the critical points of the movie \"Avengers Endgame\".",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Construct a database table that stores user profiles.",
+    "rl_step": 0,
+    "output": 848
+  },
+  {
+    "prompt": "Describe how to extrude metal.",
+    "rl_step": 0,
+    "output": 528
+  },
+  {
+    "prompt": "Make an algorithm to identify the longest common subsequence in two strings. String A: ABCDGH\nString B: AEDFHR",
+    "rl_step": 0,
+    "output": 659
+  },
+  {
+    "prompt": "Compose a story about a girl on her journey to school.",
+    "rl_step": 0,
+    "output": 521
+  },
+  {
+    "prompt": "Create a contract for a specific action. The contractor will be providing cleaning services for a house once a week.",
+    "rl_step": 0,
+    "output": 523
+  },
+  {
+    "prompt": "Explain the operational steps for back-propagation in a neural network.",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Write an essay summarizing and explaining the following topics. - The role of social media\n- Impact of fake news",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "Write a blog post on the benefits of consuming a plant-based diet.",
+    "rl_step": 0,
+    "output": 526
+  },
+  {
+    "prompt": "List 10 important events in the history of the US.",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Practice singing a given song. \"Bad Guy\" by Billie Eilish",
+    "rl_step": 0,
+    "output": 548
+  },
+  {
+    "prompt": "Generate a blog post about how technology is transforming the way people communicate",
+    "rl_step": 0,
+    "output": 527
+  },
+  {
+    "prompt": "Design an organization chart for a restaurant.",
+    "rl_step": 0,
+    "output": 715
+  },
+  {
+    "prompt": "Create an exercise program for a beginner.",
+    "rl_step": 0,
+    "output": 532
+  },
+  {
+    "prompt": "Create a class with properties for a car.",
+    "rl_step": 0,
+    "output": 548
+  },
+  {
+    "prompt": "Design the front end user interface of the given product. Grocery delivery app",
+    "rl_step": 0,
+    "output": 551
+  },
+  {
+    "prompt": "List the US presidents in chronological order.",
+    "rl_step": 0,
+    "output": 520
+  },
+  {
+    "prompt": "Write a web crawler program that collects all posts from a given website.",
+    "rl_step": 0,
+    "output": 533
+  },
+  {
+    "prompt": "Provide a solution for solving a Rubik's Cube.",
+    "rl_step": 0,
+    "output": 545
+  },
+  {
+    "prompt": "Generate a list of elements in a periodic table.",
+    "rl_step": 0,
+    "output": 583
+  },
+  {
+    "prompt": "Find 5 examples of irony in A Tale of Two Cities.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Create a Jupyter Notebook to explore a dataset. housing_data.csv",
+    "rl_step": 0,
+    "output": 666
+  },
+  {
+    "prompt": "Please generate a short story of maximum 500 words, with a science fiction theme.",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Construct a database for a car rental business.",
+    "rl_step": 0,
+    "output": 529
+  },
+  {
+    "prompt": "Compare and contrast the two technologies Solar and Wind",
+    "rl_step": 0,
+    "output": 514
+  },
+  {
+    "prompt": "Critically analyse the six core principles of design-thinking",
+    "rl_step": 0,
+    "output": 526
+  },
+  {
+    "prompt": "Generate a typical day for a high school student",
+    "rl_step": 0,
+    "output": 502
+  },
+  {
+    "prompt": "Create a quiz on the history of basketball",
+    "rl_step": 0,
+    "output": 537
+  },
+  {
+    "prompt": "Generate a HTML grid layout. 6 rows, 3 columns",
+    "rl_step": 0,
+    "output": 543
+  },
+  {
+    "prompt": "Compare the characters in Alice's Adventures in Wonderland and Through the Looking-Glass.",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "Generate a weekly diet plan that includes meals with a caloric intake of 2000",
+    "rl_step": 0,
+    "output": 539
+  },
+  {
+    "prompt": "Please provide a realistic example of a dataset for a clustering task.",
+    "rl_step": 0,
+    "output": 541
+  },
+  {
+    "prompt": "Design an experiment to test the effects of a new water filtration system",
+    "rl_step": 0,
+    "output": 504
+  },
+  {
+    "prompt": "Create a marketing plan to target new users.",
+    "rl_step": 0,
+    "output": 544
+  },
+  {
+    "prompt": "Write a story about a penguin fallen in love.",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Format the given text into a well-structured APA style research paper. The topic of this research paper is how social media affects mental health.",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Produce an annotated bibliography for the provided paper. The provided paper is an article about the impact of social media on mental health titled “Exploring the Impact of Social Media on Mental Health”.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Write a blog post discussing the effects of social media on self-esteem.",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Explain the difference between an array and an object in JavaScript.",
+    "rl_step": 0,
+    "output": 507
+  },
+  {
+    "prompt": "Create a data structure for keeping track of customer orders.",
+    "rl_step": 0,
+    "output": 537
+  },
+  {
+    "prompt": "Generate a science fiction story of 500 words with the following prompt: A computer virus is released that allows people to travel through time",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "Design a system for managing payroll.",
+    "rl_step": 0,
+    "output": 514
+  },
+  {
+    "prompt": "Design a data structure that stores personal information.",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Use the K-nearest neighbors algorithm to classify data points. Data points: [[1,2],[2,4],[2,3],[3,5],[3,1],[5,5],[5,3],[6,1],[6,2],[6,4]]",
+    "rl_step": 0,
+    "output": 538
+  },
+  {
+    "prompt": "Write a SQL query that returns the names of all of the customers and the product they purchased.",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Write an essay comparing two poems. \"A Red, Red Rose” by Robert Burns and “The New Colossus” by Emma Lazarus",
+    "rl_step": 0,
+    "output": 551
+  },
+  {
+    "prompt": "Given some musical notes, write a 500-word story about it. * C major\n* D minor\n* F major\n* G major",
+    "rl_step": 0,
+    "output": 511
+  },
+  {
+    "prompt": "Write a 500-word story about this song. Song: “The Scientist” by Coldplay",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Generate a mindmap to represent the process of returning goods.",
+    "rl_step": 0,
+    "output": 542
+  },
+  {
+    "prompt": "Produce a 500 word character sketch for a marine biologist.",
+    "rl_step": 0,
+    "output": 514
+  },
+  {
+    "prompt": "Write a blog post about the best way to raise children.",
+    "rl_step": 0,
+    "output": 506
+  },
+  {
+    "prompt": "Create a RACI matrix for a team project Team project: Automating the sales process",
+    "rl_step": 0,
+    "output": 617
+  },
+  {
+    "prompt": "Generate an article on why it is important to follow safety measures related to COVID-19",
+    "rl_step": 0,
+    "output": 523
+  },
+  {
+    "prompt": "Given the following parameters, design an algorithm to solve the problem. Given a list of integers and the target sum, find all combinations of numbers from the list that add up to the target sum.",
+    "rl_step": 0,
+    "output": 542
+  },
+  {
+    "prompt": "Compose an essay about the impact of technology on society.",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "Generate a list of steps required to build a computer.",
+    "rl_step": 0,
+    "output": 511
+  },
+  {
+    "prompt": "Create a user interface for a chatbot",
+    "rl_step": 0,
+    "output": 697
+  },
+  {
+    "prompt": "Design a webpage for online grocery shopping",
+    "rl_step": 0,
+    "output": 632
+  },
+  {
+    "prompt": "Write a 500-word article summarizing the challenges associated with developing self-driving cars.",
+    "rl_step": 0,
+    "output": 526
+  },
+  {
+    "prompt": "Explicate the Causes and Effects of World War II.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Arrange 30 books in a bookshelf according to some rule. An assortment of 30 books, including fiction, non-fiction, and informational",
+    "rl_step": 0,
+    "output": 514
+  },
+  {
+    "prompt": "Make a list of countries that have adopted a unicameral system of government.",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Design a poster encouraging people to use public transport instead of cars.",
+    "rl_step": 0,
+    "output": 617
+  },
+  {
+    "prompt": "Develop a data-driven algorithm to categorize people based on their income levels.",
+    "rl_step": 0,
+    "output": 527
+  },
+  {
+    "prompt": "Write a 500-word blog post about the value of art in education.",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Write a research paper on the impact of climate change on the global economy",
+    "rl_step": 0,
+    "output": 508
+  },
+  {
+    "prompt": "Write a story involving a car accident",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Create two different webpages about motorcycles. No input",
+    "rl_step": 0,
+    "output": 537
+  },
+  {
+    "prompt": "Generate a story that describes the adventure of a man and his pet dog. No input",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Generate a captivating story of a student attending a prestigious school and grappling with personal moral issues.",
+    "rl_step": 0,
+    "output": 503
+  },
+  {
+    "prompt": "Construct a program that will generate a digital ticket.",
+    "rl_step": 0,
+    "output": 575
+  },
+  {
+    "prompt": "Construct an algorithm for the popular board game, chess.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Analyze the themes in the novel \"Pride and Prejudice\".",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Compose a user manual for a 10GB laptop",
+    "rl_step": 0,
+    "output": 558
+  },
+  {
+    "prompt": "Compare and contrast the impacts of globalization and regionalism.",
+    "rl_step": 0,
+    "output": 504
+  },
+  {
+    "prompt": "Explain the main characters' journeys in the book \"The Great Gatsby\" <No Input>",
+    "rl_step": 0,
+    "output": 534
+  },
+  {
+    "prompt": "Write a research paper on the following topic. Topic: The Impact of Social Media on Mental Health",
+    "rl_step": 0,
+    "output": 506
+  },
+  {
+    "prompt": "Please provide a list of places that have the best French cuisine.",
+    "rl_step": 0,
+    "output": 531
+  },
+  {
+    "prompt": "Write a serialized story and give two titles: one title for the entire story and one title for each episode.",
+    "rl_step": 0,
+    "output": 505
+  },
+  {
+    "prompt": "Construct a bacterial transformation lab experiment.",
+    "rl_step": 0,
+    "output": 540
+  },
+  {
+    "prompt": "Create a chart detailing the monthly rent prices of five different cities.",
+    "rl_step": 0,
+    "output": 1055
+  },
+  {
+    "prompt": "Create a chart detailing the pros and cons of renting a house versus buying a house.",
+    "rl_step": 0,
+    "output": 936
+  },
+  {
+    "prompt": "Create a sample spreadsheet that displays financial information. The spreadsheet should contain a summary of the income and expenses for a small business for the month of January.",
+    "rl_step": 0,
+    "output": 765
+  },
+  {
+    "prompt": "Construct a decision tree to predict customer churn",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "What is the difference between linear regression and logistic regression?",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Create a time-table to show the process of baking a cake.",
+    "rl_step": 0,
+    "output": 551
+  },
+  {
+    "prompt": "Create a text-based game using the following elements. - Desert\n- Elephant\n- Gambling",
+    "rl_step": 0,
+    "output": 520
+  },
+  {
+    "prompt": "Design a circuit for controlling the brightness of a light bulb.",
+    "rl_step": 0,
+    "output": 681
+  },
+  {
+    "prompt": "Compare and contrast pros and cons of home ownership and renting.",
+    "rl_step": 0,
+    "output": 536
+  },
+  {
+    "prompt": "Create a web page with a photo carousel and an introduction Photos: person 1, person 2, person 3 \nIntro: At ABC Company, our team strives for excellence",
+    "rl_step": 0,
+    "output": 797
+  },
+  {
+    "prompt": "Generate an algorithms that checks if a given string can be balanced.",
+    "rl_step": 0,
+    "output": 610
+  },
+  {
+    "prompt": "Create a deterministic finite automata that accepts all strings ending in 010.",
+    "rl_step": 0,
+    "output": 551
+  },
+  {
+    "prompt": "Create a design for the given text snippet. United We Stand",
+    "rl_step": 0,
+    "output": 582
+  },
+  {
+    "prompt": "Create a travel itinerary for visiting Los Angeles.",
+    "rl_step": 0,
+    "output": 524
+  },
+  {
+    "prompt": "Create a product design document for a sunrise alarm clock.",
+    "rl_step": 0,
+    "output": 532
+  },
+  {
+    "prompt": "Generate a short story of fiction with a length of less than 500 words.",
+    "rl_step": 0,
+    "output": 530
+  },
+  {
+    "prompt": "Generate content for an article about the given subject. The Benefits of Eating Organic Food",
+    "rl_step": 0,
+    "output": 518
+  },
+  {
+    "prompt": "Write a travel blog post about experiencing the culture of South Korea.",
+    "rl_step": 0,
+    "output": 510
+  },
+  {
+    "prompt": "Write a 500 word report summarizing the article: \"The Impact of Brexit on the United Kingdom\".",
+    "rl_step": 0,
+    "output": 511
+  },
+  {
+    "prompt": "Create a PowerPoint about Europe with 5-7 slides.",
+    "rl_step": 0,
+    "output": 507
+  },
+  {
+    "prompt": "Generate a legal document for a customer agreement \\<noinput\\>",
+    "rl_step": 0,
+    "output": 563
+  },
+  {
+    "prompt": "Create a data model for a driver on a car-sharing platform",
+    "rl_step": 0,
+    "output": 589
+  },
+  {
+    "prompt": "Generate a computer science project based on Python language.",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "Create a database of 20 product categories and 80 products.",
+    "rl_step": 0,
+    "output": 693
+  },
+  {
+    "prompt": "Create a Markov Chain to simulate how a person would arrive late to work.",
+    "rl_step": 0,
+    "output": 682
+  },
+  {
+    "prompt": "Make a business plan to market a new mobile game.",
+    "rl_step": 0,
+    "output": 541
+  },
+  {
+    "prompt": "Create a song using a 12-bar blues chord progression with a jazz accompaniment.",
+    "rl_step": 0,
+    "output": 538
+  },
+  {
+    "prompt": "Create a role-playing scenario for a job interview Noinput",
+    "rl_step": 0,
+    "output": 534
+  },
+  {
+    "prompt": "Construct a function to classify words into nouns, verbs, and adjectives.",
+    "rl_step": 0,
+    "output": 586
+  },
+  {
+    "prompt": "Design a resume layout using Microsoft Word.",
+    "rl_step": 0,
+    "output": 534
+  },
+  {
+    "prompt": "Research and generate some facts about the Eiffel Tower",
+    "rl_step": 0,
+    "output": 508
+  },
+  {
+    "prompt": "Create 10 multiple choice questions and answers on a given topic. Topic: United States Constitution",
+    "rl_step": 0,
+    "output": 514
+  },
+  {
+    "prompt": "Generate an original story about a character who finds a mysterious red door.",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Design a board game, featuring natural disasters, that can be played by up to 5 players.",
+    "rl_step": 0,
+    "output": 514
+  },
+  {
+    "prompt": "Write a blog post about AI and its potential applications.",
+    "rl_step": 0,
+    "output": 514
+  },
+  {
+    "prompt": "Tell an interesting story about two cats.",
+    "rl_step": 0,
+    "output": 516
+  },
+  {
+    "prompt": "Write a blog post about why robots can be beneficial for the economy.",
+    "rl_step": 0,
+    "output": 519
+  },
+  {
+    "prompt": "Develop a program to find all the prime numbers in a given range. The range is from 4 to 20",
+    "rl_step": 0,
+    "output": 608
+  },
+  {
+    "prompt": "Generate a business plan for a startup in the financial services industry.",
+    "rl_step": 0,
+    "output": 530
+  },
+  {
+    "prompt": "Create an original article which is 800-900 words summarizing the top three benefits of using a certain product. Product Name: Plenti",
+    "rl_step": 0,
+    "output": 524
+  },
+  {
+    "prompt": "Design a quiz for 10th grade students about hippopotamuses.",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Provide a comparison between British and American English",
+    "rl_step": 0,
+    "output": 567
+  },
+  {
+    "prompt": "Article analyzing the impacts of the rise of AI technology in the healthcare industry.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Design an algorithm to solve the following problem.\nInput: A string and an integer k Output: A string Input: \"abcdefg\", 3",
+    "rl_step": 0,
+    "output": 580
+  },
+  {
+    "prompt": "Generate a list of tips to teach someone how to play chess.",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Create a program that analyses the sentiment of articles.",
+    "rl_step": 0,
+    "output": 722
+  },
+  {
+    "prompt": "Create a program that detects plagiarism in text.",
+    "rl_step": 0,
+    "output": 673
+  },
+  {
+    "prompt": "Generate a web page about the history of slavery in America",
+    "rl_step": 0,
+    "output": 595
+  },
+  {
+    "prompt": "Design a proof-of-work system",
+    "rl_step": 0,
+    "output": 504
+  },
+  {
+    "prompt": "Build a web page focussing on wildlife conservation",
+    "rl_step": 0,
+    "output": 566
+  },
+  {
+    "prompt": "Generate a table showing the comparison of Machine Learning and Deep Learning techniques.",
+    "rl_step": 0,
+    "output": 812
+  },
+  {
+    "prompt": "Create a marketing plan for a new ice cream product.",
+    "rl_step": 0,
+    "output": 528
+  },
+  {
+    "prompt": "Develop a game plan for a company to expand into a new market.",
+    "rl_step": 0,
+    "output": 531
+  },
+  {
+    "prompt": "I need someone to write a blog post on the topic of deep learning.",
+    "rl_step": 0,
+    "output": 523
+  },
+  {
+    "prompt": "Develop a comprehensive data protection policy for a fictitious company.",
+    "rl_step": 0,
+    "output": 534
+  },
+  {
+    "prompt": "Create a hotel reservation system in pseudocode.",
+    "rl_step": 0,
+    "output": 599
+  },
+  {
+    "prompt": "Generate a story with the following elements: a traveler, an ancient city, and a secret.",
+    "rl_step": 0,
+    "output": 505
+  },
+  {
+    "prompt": "Design a data model for a restaurant review site.",
+    "rl_step": 0,
+    "output": 578
+  },
+  {
+    "prompt": "Describe the process for recruiting new staff",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Write an article comparing the benefits of living in a big city and small town.",
+    "rl_step": 0,
+    "output": 516
+  },
+  {
+    "prompt": "Explain the process for reversing a linked-list in Java.",
+    "rl_step": 0,
+    "output": 616
+  },
+  {
+    "prompt": "Create an engaging blog post giving advice on how to prepare for job interviews.",
+    "rl_step": 0,
+    "output": 546
+  },
+  {
+    "prompt": "Construct a simple toy model of a computer system.",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Construct a training data set for a classification task. Classification task: Identify all countries in the world with a population of 1 million or more.",
+    "rl_step": 0,
+    "output": 1525
+  },
+  {
+    "prompt": "Generate a case study about the development of a new healthcare app",
+    "rl_step": 0,
+    "output": 535
+  },
+  {
+    "prompt": "Design a database schema that stores user details for an online store",
+    "rl_step": 0,
+    "output": 1542
+  },
+  {
+    "prompt": "Provide example code for the following data structure: stack. <none>",
+    "rl_step": 0,
+    "output": 589
+  },
+  {
+    "prompt": "Write a blog post about what it means to be a global citizen.",
+    "rl_step": 0,
+    "output": 502
+  },
+  {
+    "prompt": "Write a blog post about climate change from the perspective of a scientist. No Input",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Create a neural network for recognizing cat's and dog's photographs.",
+    "rl_step": 0,
+    "output": 540
+  },
+  {
+    "prompt": "Generate an essay of 500 words on the topic of machine learning.",
+    "rl_step": 0,
+    "output": 520
+  },
+  {
+    "prompt": "Write a blog post about how to save money on a vacation.",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "Develop a business plan to start a new restaurant.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Train a model to classify the sentiment in a given sentence. This movie is incredibly beautiful and inspiring.",
+    "rl_step": 0,
+    "output": 681
+  },
+  {
+    "prompt": "Create a business plan for a mobile app that provides educational services",
+    "rl_step": 0,
+    "output": 535
+  },
+  {
+    "prompt": "Design a new fitness program.",
+    "rl_step": 0,
+    "output": 521
+  },
+  {
+    "prompt": "Can you explain the rules of chess?",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Create an algorithm that XORs two binary strings. 11001101 and 01111101",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Create a classifier to determine if a given email is spam or not spam.",
+    "rl_step": 0,
+    "output": 538
+  },
+  {
+    "prompt": "Create a web page bringing attention to the growing problem of technology addiction.",
+    "rl_step": 0,
+    "output": 841
+  },
+  {
+    "prompt": "Write a blog post about the advantages and disadvantages of owning a pet",
+    "rl_step": 0,
+    "output": 530
+  },
+  {
+    "prompt": "Write a function that moves a character across a two-dimensional array on a game board",
+    "rl_step": 0,
+    "output": 553
+  },
+  {
+    "prompt": "Create a science fiction story",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Analyze the consequences of a virtual learning environment.",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Design an animal shelter.",
+    "rl_step": 0,
+    "output": 533
+  },
+  {
+    "prompt": "What are the steps for solving a quadratic equation?",
+    "rl_step": 0,
+    "output": 570
+  },
+  {
+    "prompt": "Compose a podcast episode around the topic of the future of AI",
+    "rl_step": 0,
+    "output": 570
+  },
+  {
+    "prompt": "Create a class in python to represent a bank account.",
+    "rl_step": 0,
+    "output": 630
+  },
+  {
+    "prompt": "Create an article about the impact of technology on healthcare.",
+    "rl_step": 0,
+    "output": 507
+  },
+  {
+    "prompt": "Generate an example of a data structure for a school management system.",
+    "rl_step": 0,
+    "output": 752
+  },
+  {
+    "prompt": "Create a log of the daily activities of an average person.",
+    "rl_step": 0,
+    "output": 519
+  },
+  {
+    "prompt": "Wordpress is a popular blogging platform. Can you provide some Pros and Cons of using Wordpress for blogging?",
+    "rl_step": 0,
+    "output": 516
+  },
+  {
+    "prompt": "Create two authentic Thai dishes.",
+    "rl_step": 0,
+    "output": 503
+  },
+  {
+    "prompt": "Provide a step-by-step guide to create a GPT-3 model.",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Design a web page with three columns of information.",
+    "rl_step": 0,
+    "output": 753
+  },
+  {
+    "prompt": "Create a storyboard to explain the history of the USA. No Input",
+    "rl_step": 0,
+    "output": 511
+  },
+  {
+    "prompt": "Create a detailed blueprint for designing a 3D game",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Create a test suite in Python to check if an input string is a valid email address.",
+    "rl_step": 0,
+    "output": 508
+  },
+  {
+    "prompt": "Explain the different rules of football.",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Provide a 500 word character profile of a protagonist. Mark is a 45-year-old librarian.",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "Create an algorithm to check if a given word is an anagram of another.",
+    "rl_step": 0,
+    "output": 507
+  },
+  {
+    "prompt": "Write a web page about the birds of North America.",
+    "rl_step": 0,
+    "output": 587
+  },
+  {
+    "prompt": "Provide a timeline of historic events in the US presidential election.",
+    "rl_step": 0,
+    "output": 504
+  },
+  {
+    "prompt": "Write a journalistic article that summarizes the climate crisis.",
+    "rl_step": 0,
+    "output": 511
+  },
+  {
+    "prompt": "Construct a JSON object describing a student.",
+    "rl_step": 0,
+    "output": 526
+  },
+  {
+    "prompt": "Create an HTML page that displays a table with employee information. Name | Role | Salary \nJohn Smith | Manager | $70000\nAnna Jones | Developer | $50000\nMark Wilson | Designer | $55000",
+    "rl_step": 0,
+    "output": 660
+  },
+  {
+    "prompt": "Construct a web page using HTML and CSS and showcase a product.",
+    "rl_step": 0,
+    "output": 727
+  },
+  {
+    "prompt": "Produce a web page which provides details of the events in the French Revolution.",
+    "rl_step": 0,
+    "output": 538
+  },
+  {
+    "prompt": "Write a blog post explaining the importance of diversifying computer science.",
+    "rl_step": 0,
+    "output": 511
+  },
+  {
+    "prompt": "Compare the advantages and disadvantages of traditional and virtual learning environments.",
+    "rl_step": 0,
+    "output": 533
+  },
+  {
+    "prompt": "Compare and contrast a relational database and a non-relational database.",
+    "rl_step": 0,
+    "output": 503
+  },
+  {
+    "prompt": "Create a HTML webpage about the benefits of virtual reality.",
+    "rl_step": 0,
+    "output": 567
+  },
+  {
+    "prompt": "Provide 2 examples of a persuasive speech.",
+    "rl_step": 0,
+    "output": 522
+  },
+  {
+    "prompt": "Describe what a day in the life of an astronaut is like.",
+    "rl_step": 0,
+    "output": 514
+  },
+  {
+    "prompt": "Create a blog post on Strategies to Motivate Yourself",
+    "rl_step": 0,
+    "output": 533
+  },
+  {
+    "prompt": "Describe a data structure that can be used to store information about a user's medical condition.",
+    "rl_step": 0,
+    "output": 687
+  },
+  {
+    "prompt": "Suggest a 10-minute workout to do at home",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Compare and contrast the theory of relativity and quantum mechanics.",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Design a program for teaching children about green energy.",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Given an article about politics, identify the main points and generate a corresponding infographic. The article is about a new bill that has been introduced in Congress which proposes some major reforms in the healthcare system.",
+    "rl_step": 0,
+    "output": 883
+  },
+  {
+    "prompt": "Generate a persuasive essay discussing why mobile phones should be banned in school",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Create printable flashcards from the following information. Subject: World History",
+    "rl_step": 0,
+    "output": 506
+  },
+  {
+    "prompt": "Write a script that prints a 4x4 spiral of numbers from 1 to 16.",
+    "rl_step": 0,
+    "output": 568
+  },
+  {
+    "prompt": "Describe the traditional publishing process.",
+    "rl_step": 0,
+    "output": 507
+  },
+  {
+    "prompt": "Create a business plan for a grocery delivery service.",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Describe the process of operating a 3D printer.",
+    "rl_step": 0,
+    "output": 520
+  },
+  {
+    "prompt": "Compose an essay from the given statement. The importance of music education in our lives.",
+    "rl_step": 0,
+    "output": 502
+  },
+  {
+    "prompt": "Analyze the causes of the U.S civil war.",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Create a presentation to explain the impact of the internet on society.",
+    "rl_step": 0,
+    "output": 527
+  },
+  {
+    "prompt": "Create a script that automates the process of creating a meeting between two people. X is trying to set up a meeting with Y.",
+    "rl_step": 0,
+    "output": 777
+  },
+  {
+    "prompt": "Generate a novel that is at least 1,500 words.",
+    "rl_step": 0,
+    "output": 526
+  },
+  {
+    "prompt": "Create a database table for tracking student information.",
+    "rl_step": 0,
+    "output": 552
+  },
+  {
+    "prompt": "Compare and contrast two approaches to solve the following problem Develop a predictive model for predicting stock market trends",
+    "rl_step": 0,
+    "output": 521
+  },
+  {
+    "prompt": "Find the coefficient of determination (r-squared value) of the linear regression model below.\n\ny = 0.5x + 0.1 x = [0, 1, 2, 3, 4, 5]\ny = [0.1, 0.6, 1.1, 1.6, 2.1, 2.6]",
+    "rl_step": 0,
+    "output": 535
+  },
+  {
+    "prompt": "Create three text-based mini-games in Python.",
+    "rl_step": 0,
+    "output": 854
+  },
+  {
+    "prompt": "Design a web page with HTML and CSS. The web page should have a simple section containing a title, a form, and a table.",
+    "rl_step": 0,
+    "output": 845
+  },
+  {
+    "prompt": "Compare and contrast monopolistic market structure and perfect market structure.",
+    "rl_step": 0,
+    "output": 519
+  },
+  {
+    "prompt": "Compare and contrast the data architectures of Apache Cassandra and Apache HBase.",
+    "rl_step": 0,
+    "output": 540
+  },
+  {
+    "prompt": "Create an organization chart that describes the roles of the employees in a restaurant.",
+    "rl_step": 0,
+    "output": 1137
+  },
+  {
+    "prompt": "List three dessert recipes.",
+    "rl_step": 0,
+    "output": 531
+  },
+  {
+    "prompt": "Create a scientific article about the extinct species, Resplendent Quetzal.",
+    "rl_step": 0,
+    "output": 511
+  },
+  {
+    "prompt": "Compose an essay of at least 500 words that explores how climate change has impacted wildlife.",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Create a web page to display a portfolio.",
+    "rl_step": 0,
+    "output": 674
+  },
+  {
+    "prompt": "Construct a plan for the next two weeks using the SMART method.",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Write a persuasive essay about the benefits of online education",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Create a story about a cat and a mouse",
+    "rl_step": 0,
+    "output": 501
+  },
+  {
+    "prompt": "Describe the stages a bill goes through before it can become a law",
+    "rl_step": 0,
+    "output": 516
+  },
+  {
+    "prompt": "List the members of the United Nations",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Generate a web page containing information about a pet store. Pets R Us",
+    "rl_step": 0,
+    "output": 636
+  },
+  {
+    "prompt": "Given a URL, produce an article summarizing its content. https://www.nytimes.com/2020/09/02/business/stock-market-today.html",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Write a Python function that encrypts a message using the Caesar cipher.",
+    "rl_step": 0,
+    "output": 505
+  },
+  {
+    "prompt": "Write a market analysis and competitive analysis of a specific industry. Automobile Manufacturing",
+    "rl_step": 0,
+    "output": 530
+  },
+  {
+    "prompt": "Compare and contrast the benefits and drawbacks of using a text editor versus an Integrated Development Environment (IDE).",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Create a flow chart that describes the steps for creating a PowerPoint presentation.",
+    "rl_step": 0,
+    "output": 740
+  },
+  {
+    "prompt": "Generate a comprehensive plan to reduce the impact of climate change.",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Create a stack data structure using an array",
+    "rl_step": 0,
+    "output": 660
+  },
+  {
+    "prompt": "Write a 500-word essay about the effects of climate change on the global economy.",
+    "rl_step": 0,
+    "output": 507
+  },
+  {
+    "prompt": "Develop a game using Python.",
+    "rl_step": 0,
+    "output": 930
+  },
+  {
+    "prompt": "Offer a painting tutorial for beginners.",
+    "rl_step": 0,
+    "output": 541
+  },
+  {
+    "prompt": "Generate a web page for a book review website.",
+    "rl_step": 0,
+    "output": 792
+  },
+  {
+    "prompt": "Design an algorithm to compare the words in two strings and determine the similarity between them. String 1: \"backpack fabric\"\nString 2: \"fabric pack\"",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Create a blog post of 500 words that focuses on the impact of the coronavirus on small businesses",
+    "rl_step": 0,
+    "output": 528
+  },
+  {
+    "prompt": "Generate a scientific report of  900 words discussing the effects of global warming on the Arctic",
+    "rl_step": 0,
+    "output": 515
+  },
+  {
+    "prompt": "Create a blog post discussing the different types of viruses.",
+    "rl_step": 0,
+    "output": 540
+  },
+  {
+    "prompt": "Create a web page that displays the following data as a bar chart. Data: {\n    \"January\": 20,\n    \"February\": 15,\n    \"March\": 10,\n    \"April\": 25,\n    \"May\": 30\n    }",
+    "rl_step": 0,
+    "output": 1411
+  },
+  {
+    "prompt": "Write a script for a historical drama taking place in the 18th century",
+    "rl_step": 0,
+    "output": 531
+  },
+  {
+    "prompt": "Write a Java program to implement a simple calculator.",
+    "rl_step": 0,
+    "output": 595
+  },
+  {
+    "prompt": "Identify and explain the 6 main layers of the atmosphere.",
+    "rl_step": 0,
+    "output": 508
+  },
+  {
+    "prompt": "Invent a story about an elf that lives in the woods",
+    "rl_step": 0,
+    "output": 509
+  },
+  {
+    "prompt": "Compare and contrast \"Romantic Poetry\" and \"Victorian Poetry\".",
+    "rl_step": 0,
+    "output": 519
+  },
+  {
+    "prompt": "Design a suitable curriculum for a 5th-grade student studying English.",
+    "rl_step": 0,
+    "output": 715
+  },
+  {
+    "prompt": "Create a timeline describing the global financial crisis of 2007–2008",
+    "rl_step": 0,
+    "output": 504
+  },
+  {
+    "prompt": "Compose a detailed list of features for a new restaurant.",
+    "rl_step": 0,
+    "output": 508
+  },
+  {
+    "prompt": "Create an algorithm that draws a circle in 3D space.",
+    "rl_step": 0,
+    "output": 533
+  },
+  {
+    "prompt": "Generate an article discussing the pros and cons of eating organic food.",
+    "rl_step": 0,
+    "output": 523
+  },
+  {
+    "prompt": "Construct a timeline of humankind",
+    "rl_step": 0,
+    "output": 514
+  },
+  {
+    "prompt": "Compare the advantages of using Python with other programming languages like Java.",
+    "rl_step": 0,
+    "output": 517
+  },
+  {
+    "prompt": "Create a blog post about the use of social media in marketing.",
+    "rl_step": 0,
+    "output": 521
+  },
+  {
+    "prompt": "Compare and contrast the ancient Egyptian and Roman societies",
+    "rl_step": 0,
+    "output": 512
+  },
+  {
+    "prompt": "Based on the given data set, write a research paper that discusses the purpose of the data set, trends, and analysis The data set contains information about the number of Covid-19 cases in the United States by state from 2020-2021.",
+    "rl_step": 0,
+    "output": 519
+  },
+  {
+    "prompt": "Write an article comparing and contrasting two different items. Football and basketball",
+    "rl_step": 0,
+    "output": 513
+  },
+  {
+    "prompt": "Generate a machine learning algorithm that determines whether an object is a hot dog or not.",
+    "rl_step": 0,
+    "output": 530
+  },
+  {
+    "prompt": "Create a new marketing plan.",
+    "rl_step": 0,
+    "output": 516
+  },
+  {
+    "prompt": "Design a web page layout with the following 3 components: a logo, a search bar, and a photo gallery.",
+    "rl_step": 0,
+    "output": 699
+  },
+  {
+    "prompt": "Collect data from the following source and summarize them in a table. Source: https://www.unicef.org/world-childrens-day/world-childrens-day-statistics",
+    "rl_step": 0,
+    "output": 2607
+  },
+  {
+    "prompt": "Write a historical report on the Battle of Waterloo.",
+    "rl_step": 0,
+    "output": 502
+  },
+  {
+    "prompt": "Group the following data points into two clusters using the K-Means clustering algorithm. 65, 55, 45, 35, 25, 15",
+    "rl_step": 0,
+    "output": 719
+  },
+  {
+    "prompt": "Create a market analysis for a startup company in the digital marketing space. Company Name: Spotty\nMarket: Digital marketing",
+    "rl_step": 0,
+    "output": 527
+  },
+  {
+    "prompt": "Explain the differences between the Central American countries and the South American countries.",
+    "rl_step": 0,
+    "output": 525
+  },
+  {
+    "prompt": "Create a script that converts text into a musical score.",
+    "rl_step": 0,
+    "output": 569
+  }
+]

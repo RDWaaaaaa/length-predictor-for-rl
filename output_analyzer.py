@@ -22,7 +22,6 @@ try:
         data = json.load(f)
         for item in data:
             if "output" in item:
-                # 假设'output'的值是数值类型
                 output_sizes.append(item["output"])
 except FileNotFoundError:
     print(f"Error: File '{input_filename}' not found.")

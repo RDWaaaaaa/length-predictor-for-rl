@@ -2,19 +2,18 @@ import json
 import torch
 import joblib
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trainer, TrainingArguments
-from torch.utils.data import Dataset
+from torch.utils.data import Dataset, DataLoader
 from peft import PeftModel
 from tqdm import tqdm
 import os
+import numpy as np
 
 # ================== 配置项 ==================
-INPUT_FILENAME = "dolly_processed.json"
+INPUT_FILENAME = "examples/alpaca_gpt4_data/alpaca_gpt4_data_processed_filtered.json"
 MODEL_PATH = "./regression-lora-standardscaler/best_model"
 BASE_MODEL_NAME = "Qwen/Qwen2.5-3B-Instruct"
 BATCH_SIZE = 16
 MAX_LENGTH = 512
-TEMP_OUTPUT_DIR = "./temp_inference_output"
-DATALOADER_NUM_WORKERS = 2
 # ==========================================
 
 class InferenceDataset(Dataset):
@@ -28,6 +27,7 @@ class InferenceDataset(Dataset):
 
     def __getitem__(self, idx):
         item = self.data[idx]
+        # 格式化输入文本
         text = f"Prompt: {item['prompt']}\nRL Step: {item['rl_step']}"
         
         encoding = self.tokenizer(
@@ -44,8 +44,9 @@ class InferenceDataset(Dataset):
         }
 
 def main():
+    # --- 路径和设备检查 ---
     if not os.path.exists(MODEL_PATH):
-        print(f"错误：模型路径 '{MODEL_PATH}' 不存在。请检查路径是否正确。")
+        print(f"错误：模型路径 '{MODEL_PATH}' 不存在。")
         return
     
     scaler_path = os.path.join(MODEL_PATH, "label_scaler.pkl")
@@ -60,6 +61,7 @@ def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"正在使用的设备: {device}")
 
+    # --- 加载模型和分词器 ---
     print(f"正在从 '{MODEL_PATH}' 加载组件...")
     tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
     
@@ -83,27 +85,35 @@ def main():
     scaler = joblib.load(scaler_path)
     print("模型、分词器和Scaler加载成功！")
 
+    # --- 准备数据 ---
     print(f"正在加载推理数据: {INPUT_FILENAME}")
     with open(INPUT_FILENAME, 'r', encoding='utf-8') as f:
         inference_data = json.load(f)
     
     inference_dataset = InferenceDataset(inference_data, tokenizer, max_length=MAX_LENGTH)
     
-    training_args = TrainingArguments(
-        output_dir=TEMP_OUTPUT_DIR,
-        per_device_eval_batch_size=BATCH_SIZE,
-        dataloader_num_workers=DATALOADER_NUM_WORKERS,
-        bf16_full_eval=True if device.type == 'cuda' else False,
+    # 使用更底层的 DataLoader 和手动循环，避免不必要的 Trainer 开销
+    inference_loader = DataLoader(
+        inference_dataset,
+        batch_size=BATCH_SIZE,
+        shuffle=False
     )
 
-    trainer = Trainer(
-        model=model,
-        args=training_args,
-    )
-
+    all_predictions = []
     print(f"\n开始对 {len(inference_dataset)} 条数据进行推理...")
-    predictions_output = trainer.predict(inference_dataset)
-    scaled_predictions = predictions_output.predictions
+    with torch.no_grad():
+        for batch in tqdm(inference_loader, desc="推理中"):
+            input_ids = batch['input_ids'].to(device)
+            attention_mask = batch['attention_mask'].to(device)
+            
+            outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+            
+            # 将logits移动回CPU并转换为numpy数组
+            logits = outputs.logits.detach().cpu().to(torch.float32).numpy()
+            all_predictions.append(logits)
+
+    # 将所有批次的预测结果合并成一个大的numpy数组
+    scaled_predictions = np.vstack(all_predictions)
 
     print("正在将预测结果转换回原始数值...")
     original_scale_predictions = scaler.inverse_transform(scaled_predictions)

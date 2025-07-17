@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "Give three tips for staying healthy.",
+    "rl_step": 0,
+    "output": 150
+  },
+  {
+    "prompt": "What are the three primary colors?",
+    "rl_step": 0,
+    "output": 63
+  },
+  {
+    "prompt": "Describe the structure of an atom.",
+    "rl_step": 0,
+    "output": 253
+  },
+  {
+    "prompt": "How can we reduce air pollution?",
+    "rl_step": 0,
+    "output": 282
+  },
+  {
+    "prompt": "Describe a time when you had to make a difficult decision.",
+    "rl_step": 0,
+    "output": 93
+  },
+  {
+    "prompt": "Identify the odd one out. Twitter, Instagram, Telegram",
+    "rl_step": 0,
+    "output": 39
+  },
+  {
+    "prompt": "Explain why the following fraction is equivalent to 1/4 4/16",
+    "rl_step": 0,
+    "output": 169
+  },
+  {
+    "prompt": "Write a short story in third person narration about a protagonist who has to make an important career decision.",
+    "rl_step": 0,
+    "output": 317
+  },
+  {
+    "prompt": "Render a 3D model of a house",
+    "rl_step": 0,
+    "output": 81
+  },
+  {
+    "prompt": "Evaluate this sentence for spelling and grammar mistakes He finnished his meal and left the resturant",
+    "rl_step": 0,
+    "output": 25
+  }
+]

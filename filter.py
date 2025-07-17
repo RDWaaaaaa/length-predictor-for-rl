@@ -3,7 +3,7 @@ import argparse
 import os
 from tqdm import tqdm
 
-# 只保留token >= OUTPUT_VALUE_THRESHOLD的数据 
+# 只保留token > OUTPUT_VALUE_THRESHOLD的数据 
 OUTPUT_VALUE_THRESHOLD = 200
 
 def filter_data(input_filename, output_filename):

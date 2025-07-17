@@ -5,7 +5,6 @@ from transformers import AutoTokenizer
 
 # ================== 配置项 ==================
 TOKENIZER_NAME = 'gpt2'
-MODEL_MAX_LENGTH = 10**12
 DEFAULT_RL_STEP = 0
 TEST_SET_SIZE = 10
 # ==========================================
@@ -53,7 +52,7 @@ def main():
         print(f"错误: 读取文件 '{input_file}' 失败: {e}")
         sys.exit(1)
     
-    tokenizer = AutoTokenizer.from_pretrained(TOKENIZER_NAME, model_max_length=MODEL_MAX_LENGTH)
+    tokenizer = AutoTokenizer.from_pretrained(TOKENIZER_NAME, model_max_length=10**12)
     processed_data = process_data(input_data, tokenizer)
     
     output_file = input_path.stem + "_processed" + input_path.suffix

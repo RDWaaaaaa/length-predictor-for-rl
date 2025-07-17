@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# 启动一个tmux会话：tmux new -s my_training
+# 在会话中运行：./run_workflow.sh
+# 此时即使服务器断连也能正常运行
+# 列出所有正在运行的tmux会话：tmux ls
+# 附加到会话可以看到脚本运行的输出：tmux attach -t my_training
+
 # 脚本出错时立即退出
 set -e
 
@@ -41,9 +47,8 @@ for script in "${PYTHON_SCRIPTS[@]}"; do
   echo "日志已保存到: $log_file"
   echo "结束时间: $(date)"
   echo "=================================================="
-  echo "" # 在任务之间添加一个空行以提高可读性
+  echo ""
 
-  # 更新计数器
   ((current_script_num++))
 done
 

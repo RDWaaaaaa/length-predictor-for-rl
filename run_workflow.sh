@@ -6,7 +6,7 @@
 # 启动一个tmux会话:
 #   tmux new -s my_training
 #
-# 在会话中根据需要运行脚本:
+# 在会话中运行脚本:
 #   ./run_workflow.sh
 #
 # 即使服务器断连，任务也能在 tmux 中继续运行。
@@ -20,57 +20,48 @@
 # 脚本出错时立即退出
 set -e
 
-# 使用 accelerate 运行回归脚本
-run_task_accelerate() {
+# --- 任务函数定义 ---
+
+# 任务: 使用 llamafactory-cli 运行回归任务
+run_task_llamafactory() {
   echo "##################################################"
-  echo "#               开始执行 Accelerate 任务                 #"
+  echo "#             开始执行 LlamaFactory 任务             #"
   echo "##################################################"
   
-  # 定义需要运行的 Python 脚本列表
-  local PYTHON_SCRIPTS=("regression.py")
-  local total_scripts=${#PYTHON_SCRIPTS[@]}
-  local current_script_num=1
+  local config_file="train_regression.yaml"
+  local log_file="regression_llamafactory.log"
 
-  for script in "${PYTHON_SCRIPTS[@]}"; do
-    # 检查脚本文件是否存在
-    if [ ! -f "$script" ]; then
-      echo "=================================================="
-      echo "错误：脚本 '$script' 未找到，跳过执行。"
-      echo "=================================================="
-      ((current_script_num++))
-      continue
-    fi
-
-    # 为日志文件添加后缀以作区分
-    local log_file="${script%.py}_accelerate.log"
-
+  if [ ! -f "$config_file" ]; then
     echo "=================================================="
-    echo "开始子任务 ${current_script_num}/${total_scripts}: 正在运行 $script..."
-    echo "开始时间: $(date)"
-    echo ""
-
-    # 使用 accelerate launch 运行脚本，并将标准输出和错误重定向到日志文件
-    accelerate launch "$script" > "$log_file" 2>&1
-
-    echo ""
-    echo "子任务 ${current_script_num}/${total_scripts} ($script) 已成功完成。"
-    echo "日志已保存到: $log_file"
-    echo "结束时间: $(date)"
+    echo "错误：配置文件 '$config_file' 未找到，跳过执行。"
     echo "=================================================="
-    echo ""
+    return
+  fi
 
-    ((current_script_num++))
-  done
+  echo "=================================================="
+  echo "正在使用 LlamaFactory 运行 $config_file..."
+  echo "开始时间: $(date)"
+  echo ""
+
+  # 运行 llamafactory-cli 命令
+  rm -rf outputs
+  llamafactory-cli train "$config_file" > "$log_file" 2>&1
+
+  echo ""
+  echo "LlamaFactory 任务已成功完成。"
+  echo "日志已保存到: $log_file"
+  echo "结束时间: $(date)"
+  echo "=================================================="
+  echo ""
   
   echo "##################################################"
-  echo "#               Accelerate 任务执行完毕                #"
+  echo "#             LlamaFactory 任务执行完毕             #"
   echo "##################################################"
   echo ""
 }
 
-# --- 主程序入口 ---
+# --- 主逻辑 ---
 
-# 直接调用任务函数
-run_task_accelerate
+run_task_llamafactory
 
 echo "所有任务已执行完毕。"

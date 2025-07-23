@@ -10,7 +10,7 @@ import numpy as np
 import argparse
 
 # ================== 配置项 ==================
-MODEL_PATH = "./regression-lora-standardscaler/best_model"
+MODEL_PATH = "./regression_2/best_model"
 BASE_MODEL_NAME = "Qwen/Qwen2.5-3B-Instruct"
 BATCH_SIZE = 16
 MAX_LENGTH = 512
@@ -44,11 +44,10 @@ class InferenceDataset(Dataset):
         }
 
 def main():
-    # --- 新增：设置命令行参数解析 ---
     parser = argparse.ArgumentParser(description="使用训练好的模型对JSON文件进行推理。")
     parser.add_argument("input_filename", type=str, help="需要进行推理的输入JSON文件的路径。")
     args = parser.parse_args()
-    input_filename = args.input_filename # 从命令行获取输入文件名
+    input_filename = args.input_filename
 
     # --- 路径和设备检查 ---
     if not os.path.exists(MODEL_PATH):

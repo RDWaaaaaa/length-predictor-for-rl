@@ -7,13 +7,13 @@ from torch.utils.data import Dataset
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer, EarlyStoppingCallback
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 from peft import get_peft_model, LoraConfig, TaskType
-
+from swanlab.integration.transformers import SwanLabCallback
 # ================== 配置项 ==================
 # --- 基本配置 ---
 IS_TEST = False
 MODEL_NAME = "Qwen/Qwen2.5-3B-Instruct"
-DATA_PATH_PROCESSED = "alpaca_gpt4_data_processed.json"
-DATA_PATH_TEST = "alpaca_gpt4_data_processed_test.json"
+DATA_PATH_PROCESSED = "examples/alpaca_gpt4_data/alpaca_gpt4_data_processed.json"
+DATA_PATH_TEST = "examples/alpaca_gpt4_data/alpaca_gpt4_data_processed_test.json"
 OUTPUT_DIR = "./regression"
 MAX_LENGTH = 512
 
@@ -31,24 +31,8 @@ LORA_BIAS = "none"
 
 # --- 训练参数 ---
 LEARNING_RATE = 1e-4
-PER_DEVICE_TRAIN_BATCH_SIZE = 8
-PER_DEVICE_EVAL_BATCH_SIZE = 4
 NUM_TRAIN_EPOCHS = 10
-WEIGHT_DECAY = 0.01
-EVAL_STRATEGY = "epoch"
-SAVE_STRATEGY = "epoch"
-LOAD_BEST_MODEL_AT_END = True
-METRIC_FOR_BEST_MODEL = "mae"
-GREATER_IS_BETTER = False
 LOGGING_DIR = "./regression-lora-standardscaler"
-LOGGING_STEPS = 100
-USE_FP16 = False
-USE_BF16 = True
-USE_BF16_FULL_EVAL = True
-MAX_GRAD_NORM = 1.0
-SAVE_TOTAL_LIMIT = 3
-EARLY_STOPPING_PATIENCE = 3
-EARLY_STOPPING_THRESHOLD = 0.01
 # ==========================================
 
 class AlpacaDataset(Dataset):
@@ -184,26 +168,35 @@ def main():
     training_args = TrainingArguments(
         output_dir=OUTPUT_DIR,
         learning_rate=LEARNING_RATE,
-        per_device_train_batch_size=PER_DEVICE_TRAIN_BATCH_SIZE,
-        per_device_eval_batch_size=PER_DEVICE_EVAL_BATCH_SIZE,
+        per_device_train_batch_size=8,
+        per_device_eval_batch_size=4,
         num_train_epochs=NUM_TRAIN_EPOCHS,
-        weight_decay=WEIGHT_DECAY,
-        eval_strategy=EVAL_STRATEGY,
-        save_strategy=SAVE_STRATEGY,
-        load_best_model_at_end=LOAD_BEST_MODEL_AT_END,
-        metric_for_best_model=METRIC_FOR_BEST_MODEL,
-        greater_is_better=GREATER_IS_BETTER,
+        weight_decay=0.01,
+        eval_strategy="steps",
+        eval_steps=10,
+        save_strategy="steps",
+        save_steps=10,
+        load_best_model_at_end=True,
+        metric_for_best_model="mae",
+        greater_is_better=False,
         push_to_hub=False,
         logging_dir=LOGGING_DIR,
-        logging_steps=LOGGING_STEPS,
-        fp16=USE_FP16,
-        bf16=USE_BF16,
-        bf16_full_eval=USE_BF16_FULL_EVAL,
-        max_grad_norm=MAX_GRAD_NORM,
-        save_total_limit=SAVE_TOTAL_LIMIT,
+        logging_steps=1,
+        fp16=False,
+        bf16=True,
+        bf16_full_eval=True,
+        max_grad_norm=1.0,
+        save_total_limit=3,
+        report_to="none",
     )
+
     
     compute_metrics_with_scaler = lambda eval_pred: compute_metrics_for_regression(eval_pred, scaler)
+    
+    swanlab_callback = SwanLabCallback(
+        project="Qwen2.5-SFT-Regression", 
+        experiment_name=f"{MODEL_NAME.replace('/', '_')}-lora"
+    )
     
     trainer = Trainer(
         model=model,
@@ -211,10 +204,13 @@ def main():
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
         compute_metrics=compute_metrics_with_scaler,
-        callbacks=[EarlyStoppingCallback(
-            early_stopping_patience=EARLY_STOPPING_PATIENCE, 
-            early_stopping_threshold=EARLY_STOPPING_THRESHOLD
-        )],
+        callbacks=[
+            EarlyStoppingCallback(
+                early_stopping_patience=3, 
+                early_stopping_threshold=0.01
+            ),
+            swanlab_callback
+        ],
     )
     
     print("Starting model training for regression task...")

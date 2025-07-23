@@ -77,8 +77,7 @@ dolly的完整测试结果在examples/dolly。
 1. distribution输入数据集的分布。
 2. inference_results_distribution推理结果与真实结果差的分布
 3. inference_results_scatter_plot散点图
-4. inference_results_residuals_plot残差图
-其中2、3、4分别有完整数据集的版本，和只显示长数据（真实token>500）的版本。
+其中2、3分别有完整数据集的版本，和只显示长数据（真实token>500）的版本。
 
 对比可以看到，真实token>500的数据，它们对应的预测值整体偏小。  
 

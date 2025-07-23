@@ -1,21 +1,19 @@
 __pycache__
 cache
-
+.vscode
 LLaMA-Factory
-Qwen2.5-3B-Instruct
 
-regression-lora.py
-regression-lora.log
-qwen.yaml
 default_config.yaml
-classification-linear.py
-classification-linear.log
-# alpaca_gpt4_data.json
-# alpaca_gpt4_data_processed.json
-# alpaca_gpt4_data_processed_test.json
-# dolly.json
-# dolly_processed.json
-# dolly_processed_test.json
-# dolly_processed_inference_results.json
-# dolly_processed_filtered.json
-# dolly_processed_filtered_inference_results.json
+datasets
+LLaMA-Factory
+outputs/qwen2.5-3b-regression-lora
+swanlog
+final_process.py
+
+regression_accelerate.log
+regression_llamafactory.log
+train_regression.yaml
+run_workflow copy.sh
+processor copy.py
+
+src

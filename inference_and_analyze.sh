@@ -6,8 +6,7 @@ set -e
 # 定义要处理的数据集名称
 # 在此数组中添加更多数据集名称，脚本会自动依次处理
 DATASETS=(
-  "alpaca_gpt4_data"
-  "dolly"
+  "stackoverflow"
 )
 
 # 获取数据集总数

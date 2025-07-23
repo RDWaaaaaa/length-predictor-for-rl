@@ -56,7 +56,9 @@ def analyze_differences(file_path):
         outputs = [item['output'] for item in data]
         predicted_outputs = [item['predicted_output'] for item in data]
         differences = [p - o for o, p in zip(outputs, predicted_outputs)]
-        residuals = [o - p for o, p in zip(outputs, predicted_outputs)] # 残差 = 真实 - 预测
+        # 注意：虽然残差图被移除，但如果其他计算需要，可以保留 'residuals' 的计算。
+        # 在此版本中，它未被使用，所以可以安全地注释掉或删除。
+        # residuals = [o - p for o, p in zip(outputs, predicted_outputs)] # 残差 = 真实 - 预测
     except KeyError as e:
         print(f"错误：数据中缺少键 {e}。请确保每个JSON对象都包含 'output' 和 'predicted_output'。")
         return
@@ -96,7 +98,7 @@ def analyze_differences(file_path):
     dist_filename = f"{base_name}_distribution.png"
     plt.savefig(dist_filename)
     plt.close()
-    print(f"\n[1/3] 误差分布图已保存到: {dist_filename}")
+    print(f"\n[1/2] 误差分布图已保存到: {dist_filename}")
 
     # 图表二：真实值 vs. 预测值 散点图
     plt.figure(figsize=(8, 8))
@@ -113,20 +115,8 @@ def analyze_differences(file_path):
     scatter_filename = f"{base_name}_scatter_plot.png"
     plt.savefig(scatter_filename)
     plt.close()
-    print(f"[2/3] 散点图已保存到: {scatter_filename}")
+    print(f"[2/2] 散点图已保存到: {scatter_filename}")
 
-    # 图表三：残差图
-    plt.figure(figsize=(10, 6))
-    sns.scatterplot(x=predicted_outputs, y=residuals, alpha=0.6)
-    plt.axhline(y=0, color='r', linestyle='--')
-    plt.title('Residuals vs. Predicted Values')
-    plt.xlabel('Predicted Output')
-    plt.ylabel('Residuals (Actual - Predicted)')
-    plt.grid(True)
-    residual_filename = f"{base_name}_residuals_plot.png"
-    plt.savefig(residual_filename)
-    plt.close()
-    print(f"[3/3] 残差图已保存到: {residual_filename}")
 
 
 if __name__ == "__main__":

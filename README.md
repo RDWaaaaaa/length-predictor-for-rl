@@ -1,5 +1,5 @@
 # 基于SFT的推理输出长度预测器
-
+此分支为regression-transformers迁移到LLaMA Factory的等价代码，但训练时loss不能迅速下降，目前暂未找到原因。
 ## 文件说明
 
 ### 数据集处理
@@ -34,21 +34,9 @@ tmux attach -t my_training # 附加到会话，可以看到脚本运行的输出
 ```
 
 单独运行时，nohup可避免关闭终端导致训练中断。  
-
-1. 分类classification.py
 ```sh
-nohup accelerate launch classification.py > classification.log 2>&1 &
+llamafactory-cli train train_regression.yaml > regression.log 2>&1
 ```
-以 50 tokens 为粒度，LoRA，正确率56%
-
-2. 回归regression.py
-```sh
-nohup accelerate launch regression.py > regression.log 2>&1 &
-```
-直接预测长度，LoRA，长度用Z-Score标准化  
-mse: 2914.61：原始尺度上的均方误差  
-mae: 34.9187: 原始尺度上的平均绝对误差  
-
 
 ### 推理
 1. 推理
